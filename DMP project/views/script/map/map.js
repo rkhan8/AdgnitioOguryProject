@@ -9,56 +9,31 @@ function loadMap(ListMapCatVol)
   for(var i=0; i<ListMapCatVol.length; i++)
   {
     id.push(ListMapCatVol[i][0]);
-    vol.push(ListMapCatVol[i][1]);
+    vol.push(Intl.NumberFormat().format(ListMapCatVol[i][1]));
   }
 
-  //alert(id);
-  var data ;
+  var data = [];
+  var string = "";
 
-  for(var j=0; j < id.length; j++)
+  for(var j=0; j<id.length; j++)
   {
-    /*
-    if(id[j] = "FR")
-    {
-      data =
+
+      string =
       {
-        "id": id[j],
-        "description": "ok recu"
+        "id" : id[j],
+        "description" : "Volume : " + vol[j]
       }
-    }
-    else {
-      data =
-      {
-        "id": "FR",
-        "description": "kokokoko"
-      }
-    }
-    */
 
-
-    //alert(id[j]);
-
-    data =
-    {
-      "id": "FR",
-      "description": "<h3>ok recu</h3>"
-    }
+      data.push(string);
 
   }
-
-
-
-
-  //alert(id.length);
 
   var continentsDataProvider;
 
   var worldDataProvider = {
   map: "worldLow",
   getAreasFromMap: true,
-  areas: [
-      data
-    ]
+  areas: data
 
   };
 
@@ -110,10 +85,10 @@ function loadMap(ListMapCatVol)
   areasSettings: {
       autoZoom: true,
       rollOverOutlineColor: "#9a7bca",
-      selectedColor: "#9a7bca",
+      selectedColor: "#6495ed",
       //color: "#a791b4",
       color : "black",
-      rollOverColor: "#9a7bca"
+      rollOverColor: "#6495ed"
   },
 
 

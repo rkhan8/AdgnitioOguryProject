@@ -71,6 +71,7 @@
                     <th>Category</th>
                     <th>Old Volume</th>
                     <th>New Volume</th>
+                    <th>Difference</th>
                   </tr>
               </table>
             </div>
@@ -154,7 +155,7 @@
 
 
 
-    <script>
+    <script type="text/javascript">
 
       var socket = io();
 
@@ -213,8 +214,25 @@
 
             row.insertCell(0).innerHTML = List[0][j][0];
             row.insertCell(1).innerHTML = List[0][j][1];
-            row.insertCell(2).innerHTML = List[0][j][2]
-            row.insertCell(3).innerHTML = List[0][j][3];
+            row.insertCell(2).innerHTML = Intl.NumberFormat().format(List[0][j][2]);
+            row.insertCell(3).innerHTML = Intl.NumberFormat().format(List[0][j][3]);
+            row.insertCell(4).innerHTML = Intl.NumberFormat().format(List[0][j][4]);
+
+            //determine if difference is + or -
+            var Cells = row.getElementsByTagName("td");
+
+            //if difference +
+            if(Cells[4].innerText.indexOf("-"))
+            {
+              Cells[4].remove();
+              row.insertCell(4).innerHTML = "<font size='2px' color='green'>"+List[0][j][4]+"</font>";
+            }
+            else //if difference -
+            {
+              Cells[4].remove();
+              row.insertCell(4).innerHTML = "<font size='2px' color='red'>"+List[0][j][4]+"</font>";
+            }
+
 
             //Push id, oldVolume and newVolume to the histogramme list
             ListHistogramm.push([List[0][j][0], List[0][j][2], List[0][j][3]]);
@@ -234,7 +252,7 @@
 
             row.insertCell(0).innerHTML = ListOld[0][j][0];
             row.insertCell(1).innerHTML = ListOld[0][j][1];
-            row.insertCell(2).innerHTML = ListOld[0][j][2];
+            row.insertCell(2).innerHTML = Intl.NumberFormat().format(ListOld[0][j][2]);
           }
           //$(".loading").hide();
         }
@@ -251,18 +269,18 @@
 
             row.insertCell(0).innerHTML = ListNew[0][j][0];
             row.insertCell(1).innerHTML = ListNew[0][j][1];
-            row.insertCell(2).innerHTML = ListNew[0][j][2];
+            row.insertCell(2).innerHTML = Intl.NumberFormat().format(ListNew[0][j][2]);
           }
         }
 
 
-        //list1load();
+        list1load();
         //executeAsync(list2load);
         //executeAsync(list3load);
 
 
-        //loadHist(ListHistogramm); //load histogramme (see hist.js)
-        //LoadPie(ListHistogramm); //load piechar (see pie.js)
+        loadHist(ListHistogramm); //load histogramme (see hist.js)
+        LoadPie(ListHistogramm); //load piechar (see pie.js)
 
         for(var i=0; i<ListVolCat[0].length; i++)
         {

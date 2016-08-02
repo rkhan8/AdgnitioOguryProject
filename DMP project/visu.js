@@ -294,7 +294,8 @@ module.exports =
             {
               if(ListCategory[g][0] == ListPreHisto[h][0])
               {
-                  ListHisto.push([ListCategory[g][0], ListCategory[g][1], ListPreHisto[h][1], ListPreHisto[h][2]]); //Retrieve category_ID, category, old Volume, New Volume
+                  var diff = ListPreHisto[h][2] - ListPreHisto[h][1];
+                  ListHisto.push([ListCategory[g][0], ListCategory[g][1], ListPreHisto[h][1], ListPreHisto[h][2], diff]); //Retrieve category_ID, category, old Volume, New Volume
                   //ListHisto.push([ListPreHisto[h][0], ListPreHisto[h][1], ListPreHisto[h][2]]);
                   ListHisto.sort();
               }
