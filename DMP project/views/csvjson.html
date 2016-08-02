@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <title>CSVJSON</title>
+    <script type="text/javascript" src="../script/script1.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="../css/script6.css">
+    <link rel="stylesheet" href="../css/csvjson.css">
+
+  </head>
+  <body>
+
+    <table class="content" style="opacity:1;">
+      <tr>
+        <td>
+          <h1>Step 1:</h1>
+          <span>Check in your CSV files that :
+          </br> - 1st column is the category ID
+          </br> - 2nd column is the category
+          </br> - 3rd column is the url/app
+        </span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1>Step 2:</h1>
+          <span>Select you CSV file</span></br>
+          <!--<input type="file" id="file_path" size="50" onclick="myFunction()"/>-->
+          <div id="holder"></div>
+          <style>
+            #holder { border: 5px dashed #ccc; width: 500px; height: 200px; margin: 20px auto;}
+            #holder.hover { border: 5px dashed #333; }
+          </style>
+          <script>
+
+
+        </script>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1>Step 3:</h1>
+          <span>Start to generate your JSON file.</span>
+          <table class="hidden-xs">
+            <tr>
+              <td>
+                <button class="signup">Generate</button>
+
+                <!--<input type="file" id="filee" name="input-name" style="display: none;"></input>-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <div id="opacity">
+    </div>
+
+    <!-- load socket io script-->
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+
+
+    <script>
+
+      var socket = io();
+      var button = document.querySelector('.signup');
+
+      var filePath = "";
+      var path = "";
+
+      /*
+      function myFunction()
+      {
+        filePath = document.getElementById('file_path').value;
+        //filePath = "C:\\Users\\Username\\Desktop\\TestAll.csv"
+
+      }
+      */
+
+
+      //Same as $(document).ready();
+        function ready(fn)
+        {
+          if (document.readyState != 'loading'){
+            fn();
+          } else {
+            document.addEventListener('DOMContentLoaded', fn);
+          }
+        }
+
+        //When the page has loaded, run this code
+        ready(function()
+        {
+          // prevent default behavior from changing page on dropped file
+          window.ondragover = function(e) { e.preventDefault(); return false };
+          window.ondrop = function(e) { e.preventDefault(); return false };
+
+          var holder = document.getElementById('holder');
+          holder.ondragover = function () { this.className = 'hover'; return false; };
+          holder.ondragleave = function () { this.className = ''; return false; };
+          holder.ondrop = function (e)
+          {
+            e.preventDefault();
+            for (var i = 0; i < e.dataTransfer.files.length; ++i)
+            {
+              path = e.dataTransfer.files[i].name;
+            }
+
+          };
+        });
+
+
+
+
+        // define the behaviour of the button 'signup'
+        button.addEventListener('click', function onClick()
+        {
+          //myFunction();
+          alert(path);
+
+
+          //var msg = 'ok';
+          socket.emit("sending_link", {
+              message: path
+          });
+
+          //get the message from index.js and inform the user that the conversion has been done
+          socket.on('sending_response', function(res)
+          {
+            var mess = res['response'];
+            if(mess == 'done')
+            {
+              alert("Your file has been created");
+              socket.flush(); // clear socket after operation
+            }
+            else
+            {
+              console.error();
+            }
+          })
+          return;
+
+        });
+
+    </script>
+
+
+  </body>
+</html>
