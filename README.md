@@ -1,4 +1,4 @@
-# AdgnitioOguryProject
+# Adgnitio Project
 Data Solutions tool
 
 
@@ -6,7 +6,7 @@ Introduction
 -------------
 
 This program is used in order to prepare our DMP delivery.
-Thanks to this program, we are able to generate a scoring settings file, an essential file to establish some pattern matching with Ogury's data, and also to make sence, to interprate and to predict each delivery
+Thanks to this program, we are able to generate a scoring settings file, an essential file to establish some pattern matching with other data, and also to make sence, to interprate and to predict each delivery
 
 > **Note:**
 
@@ -14,8 +14,8 @@ Thanks to this program, we are able to generate a scoring settings file, an esse
 > - User has to launch the file **index.js**
 
 ### Just tell me what to do
-1. Fork the project https://github.com/rkhan8/AdgnitioOguryProject.git via github
-2. Clone the project git clone https://github.com/YOUR_USERNAME/AdgnitioOguryProject.git
+1. Fork the project https://github.com/rkhan8/AdgnitioProject.git via github
+2. Clone the project git clone https://github.com/YOUR_USERNAME/AdgnitioProject.git
 3. Install NodeJS
 4. Follow the steps.
 5. Don't forget to commit and push
