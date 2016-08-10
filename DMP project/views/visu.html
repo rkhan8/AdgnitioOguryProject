@@ -27,22 +27,48 @@
 		<script src="map/themes/light.js"></script>
     <script src="script/map/map.js"></script>
 
+    <!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
+
+
 
   </head>
   <body>
   </br>
-    <button onclick="window.location.href='/visu.html'" class="load">Load</button>
+  <table style="width:100%">
+    <td>
+      <th>
+        <button style="float:left" onclick="window.location.href='/visu.html'" class="load">Load</button>
+      </th>
+      <th>
+        <div id="datatype">
+          <ul data-role="listview" data-inset="true" style="list-style-type:none">
+            <li id="Intent_Interest_Data"><a href="#">Intent & Interest</a></li>
+            <li id="Lifestyle_Data"><a href="#">Lifestyle</a></li>
+            <li id="Brand_affinity_Data"><a href="#">Brand Affinity</a></li>
+            <li id="Demographic_Insights_Data"><a href="#">Demographic Insights</a></li>
+            <li id="App_Insights_Data"><a href="#">App Insights</a></li>
+          </ul>
+        </div>
+
+      </th>
+    </td>
+  </table>
+
     <table id="content" style="margin-top:20px; width:100%;">
       <tr>
         <td>
-          <div id="container" style= "width:95%; height:100%;">
-            <canvas id="canvas"></canvas> <!-- histogramme-->
+          <div id="container" style= "width:98%; height:90%;">
+            <canvas id="canvas" style= "width:98%; height:90%;"></canvas> <!-- histogramme-->
           </div>
+        </td>
+        <td>
+
         </td>
       </tr>
     </table>
 
-    <div class="loading">Loading&#8230;</div>
+    <div class="loading"></div>
 
 
     <table style=" margin-top:20px; width:100%;">
@@ -52,7 +78,7 @@
             <th >
               <td>
                 <div id="canvas-holder" style="width:100%">
-                    <canvas id="chart-area" width="350" height="350"/> <!--pie-chart-->
+                    <canvas id="chart-area" width="327" height="330"/>
                 </div>
               </td>
             </th>
@@ -72,6 +98,7 @@
                   <thead>
                     <tr>
                       <th>ID</th>
+                      <th>Data type</th>
                       <th>Category</th>
                       <th>Old Volume</th>
                       <th>New Volume</th>
@@ -163,13 +190,150 @@
     <script type="text/javascript">
 
       var socket = io();
-
-
       //send message to index.js
       var msg2 = 'visu';
       socket.emit("sending_visu", {
           message2: msg2
       });
+
+
+
+      var id = [];
+      var category = [];
+      var oldVolume = [];
+      var newVolume = [];
+      var ListTab = [];
+      var ListOld = [];
+      var ListNew = [];
+      var ListMap = [];
+      var ListVolCat = [];
+      var ListMapCatVol = [];
+      var ListPreHistogramm = [];
+      var ListHistogrammAllData = [];
+      var Data_Load = [];
+      var ListPreIntentInterest = [];
+      var ListIntent_Interest = [];
+      var ListPreLifestyle = [];
+      var ListLifeStyle = [];
+      var ListPreBrandAffinity = [];
+      var ListBrandAffinity = [];
+      var ListPreDemographicInsights = [];
+      var ListDemographic_Insights = [];
+      var ListPreAppInsights = [];
+      var ListAppInsights = [];
+
+
+      //Timeout Async execution function
+      function executeAsync(func)
+      {
+        setTimeout(func, 0);
+      }
+
+      //Sort filter for table1
+      var filterSort1 = function()
+      {
+        $('#donnee').tablesorter({
+             sortList: [[0, 0]]
+          });
+      }
+
+      //Sort filter for table2
+      var filterSort2 = function()
+      {
+        $('#donnee2').tablesorter({
+             sortList: [[0, 0]]
+          });
+      }
+
+      //Sort filter for table3
+      var filterSort3 = function()
+      {
+        $('#donnee3').tablesorter({
+             sortList: [[0, 0]]
+          });
+      }
+
+
+      var list1load = function()
+      {
+        //show element first table (id, cat, oldVolume, newVolume)
+        for(var j =0; j < ListTab[0].length; j++)
+        {
+          //inserting table content by incrementing all the element into the arraylist
+          var table = document.getElementById("table1");
+          var rowCount = table.rows.length;
+          var row = table.insertRow(rowCount);
+
+          row.insertCell(0).innerHTML = ListTab[0][j][0];
+          row.insertCell(1).innerHTML = ListTab[0][j][5];
+          row.insertCell(2).innerHTML = ListTab[0][j][1];
+          row.insertCell(3).innerHTML = Intl.NumberFormat().format(ListTab[0][j][2]);
+          row.insertCell(4).innerHTML = Intl.NumberFormat().format(ListTab[0][j][3]);
+          row.insertCell(5).innerHTML = Intl.NumberFormat().format(ListTab[0][j][4]);
+
+
+          //determine if difference is + or - and insert into tag <td>
+          var Cells = row.getElementsByTagName("td");
+
+          //if difference -
+          if(!Cells[5].innerText.indexOf("-"))
+          {
+            Cells[5].remove();
+            row.insertCell(5).innerHTML = "<font size='2px' color='red'>"+ListTab[0][j][4]+"</font>";
+
+          }
+          else //if difference +
+          {
+            Cells[5].remove();
+            row.insertCell(5).innerHTML = "<font size='2px' color='green'>"+ListTab[0][j][4]+"</font>";
+
+          }
+        }
+      }
+
+      var list2load = function()
+      {
+        //show element first table (id, ccountry, oldVolume)
+        for(var j =0; j < ListOld[0].length; j++)
+        {
+          //inserting table content by incrementing all the element into the arraylist
+          var table = document.getElementById("donnee2");
+          var rowCount = table.rows.length;
+          var row = table.insertRow(rowCount);
+
+          row.insertCell(0).innerHTML = ListOld[0][j][0];
+          row.insertCell(1).innerHTML = ListOld[0][j][1];
+          row.insertCell(2).innerHTML = Intl.NumberFormat().format(ListOld[0][j][2]);
+        }
+      }
+
+      var list3load = function()
+      {
+        //show element first table (id, ccountry, NewVolume)
+        for(var j =0; j < ListNew[0].length; j++)
+        {
+          //inserting table content by incrementing all the element into the arraylist
+          var table = document.getElementById("donnee3");
+          var rowCount = table.rows.length;
+          var row = table.insertRow(rowCount);
+
+          row.insertCell(0).innerHTML = ListNew[0][j][0];
+          row.insertCell(1).innerHTML = ListNew[0][j][1];
+          row.insertCell(2).innerHTML = Intl.NumberFormat().format(ListNew[0][j][2]);
+        }
+      }
+
+
+      //load data function
+      var data_load = function(List)
+      {
+        for(var j =0; j < List.length; j++)
+        {
+          //Push id, oldVolume and newVolume to the histogramme list
+          Data_Load.push([List[j][0], List[j][1],List[j][2], List[j][3]]);
+        }
+      }
+
 
       //retrieve data from index.js (arraylist id, category, oldVol and newVol), sent by visu.js
       socket.once('sending_histo', function(res) //one time listener to avoid duplication of hist and pie Chart
@@ -178,174 +342,123 @@
         //get arraylist content
         var mess = res['message3'];
 
-        var id = [];
-        var category = [];
-        var oldVolume = [];
-        var newVolume = [];
-        var List = [];
-        var ListOld = [];
-        var ListNew = [];
-        var ListMap = [];
-        var ListVolCat = [];
-        var ListMapCatVol = [];
-        var ListHistogramm = [];
-
         //get all content of the list
         for(var i = 0; i < mess.length; i++)
         {
-          List.push(mess[0][0]);
-          ListOld.push(mess[1][0]);
-          ListNew.push(mess[2][0]);
-          ListMap.push(mess[3][0]);
-          ListVolCat.push(mess[4][0]);
+          ListPreIntentInterest.push(mess[0][0]);
+          ListPreLifestyle.push(mess[1][0]);
+          ListPreBrandAffinity.push(mess[2][0]);
+          ListPreDemographicInsights.push(mess[3][0]);
+          ListPreAppInsights.push(mess[4][0]);
+          ListTab.push(mess[5][0]);
+          ListPreHistogramm.push(mess[5][0]);
+          ListOld.push(mess[6][0]);
+          ListNew.push(mess[7][0]);
+          ListMap.push(mess[8][0]);
+          ListVolCat.push(mess[9][0]);
         }
 
-        //Timeout Async execution function
-        function executeAsync(func)
+
+        ListHistogrammAllData =[];
+        for(var i=0; i < ListPreHistogramm[0].length ; i++)
         {
-          setTimeout(func, 0);
+          ListHistogrammAllData.push([ListPreHistogramm[0][i][0], ListPreHistogramm[0][i][1], ListPreHistogramm[0][i][2], ListPreHistogramm[0][i][3]]);
         }
 
-        //Sort filter for table1
-        var filterSort1 = function()
+
+        //get Intent&Interest data
+        ListIntent_Interest = [];
+        for(var i=0; i < ListPreIntentInterest[0].length ; i++)
         {
-          $('#donnee').tablesorter({
-               sortList: [[0, 0]]
-            });
+          //category_id, category, oldVolume, newVolume
+          ListIntent_Interest.push([ListPreIntentInterest[0][i][0], ListPreIntentInterest[0][i][2], ListPreIntentInterest[0][i][3], ListPreIntentInterest[0][i][4]]);
         }
-
-        //Sort filter for table2
-        var filterSort2 = function()
+        //get Lifestyle data
+        ListLifeStyle = [];
+        for(var i=0; i < ListPreLifestyle[0].length ; i++)
         {
-          $('#donnee2').tablesorter({
-               sortList: [[0, 0]]
-            });
+          //category_id, category, oldVolume, newVolume
+          ListLifeStyle.push([ListPreLifestyle[0][i][0], ListPreLifestyle[0][i][2], ListPreLifestyle[0][i][3], ListPreLifestyle[0][i][4]]);
         }
-
-        //Sort filter for table3
-        var filterSort3 = function()
+        //get Brand Affinity data
+        ListBrandAffinity= [];
+        for(var i=0; i < ListPreBrandAffinity[0].length ; i++)
         {
-          $('#donnee3').tablesorter({
-               sortList: [[0, 0]]
-            });
+          //category_id, category, oldVolume, newVolume
+          ListBrandAffinity.push([ListPreBrandAffinity[0][i][0], ListPreBrandAffinity[0][i][2], ListPreBrandAffinity[0][i][3], ListPreBrandAffinity[0][i][4]]);
         }
-
-
-
-        var list1load = function()
+        //get Demographic Insights data
+        ListDemographic_Insights = [];
+        for(var i=0; i < ListPreDemographicInsights[0].length ; i++)
         {
-          //show element first table (id, cat, oldVolume, newVolume)
-          //for(var j =0; j < mess[0][0].length; j++)
-          for(var j =0; j < mess[0][0].length; j++)
-          {
-            //inserting table content by incrementing all the element into the arraylist
-            //var table = document.getElementById("donnee");
-            var table = document.getElementById("table1");
-            var rowCount = table.rows.length;
-            var row = table.insertRow(rowCount);
-
-
-            row.insertCell(0).innerHTML = List[0][j][0];
-            row.insertCell(1).innerHTML = List[0][j][1];
-            row.insertCell(2).innerHTML = Intl.NumberFormat().format(List[0][j][2]);
-            row.insertCell(3).innerHTML = Intl.NumberFormat().format(List[0][j][3]);
-            row.insertCell(4).innerHTML = Intl.NumberFormat().format(List[0][j][4]);
-
-            //determine if difference is + or -
-            var Cells = row.getElementsByTagName("td");
-
-            //if difference +
-            if(Cells[4].innerText.indexOf("-"))
-            {
-              Cells[4].remove();
-              row.insertCell(4).innerHTML = "<font size='2px' color='green'>"+List[0][j][4]+"</font>";
-            }
-            else //if difference -
-            {
-              Cells[4].remove();
-              row.insertCell(4).innerHTML = "<font size='2px' color='red'>"+List[0][j][4]+"</font>";
-            }
-
-
-
-            //Push id, oldVolume and newVolume to the histogramme list
-            ListHistogramm.push([List[0][j][0], List[0][j][2], List[0][j][3]]);
-          }
-          //alert(ListHistogramm[1][1]);
+          //category_id, category, oldVolume, newVolume
+          ListDemographic_Insights.push([ListPreDemographicInsights[0][i][0], ListPreDemographicInsights[0][i][2], ListPreDemographicInsights[0][i][3], ListPreDemographicInsights[0][i][4]]);
         }
-
-        var list2load = function()
+        //get App Insights data
+        ListAppInsights = [];
+        for(var i=0; i < ListPreAppInsights[0].length ; i++)
         {
-          //show element first table (id, ccountry, oldVolume)
-          for(var j =0; j < mess[1][0].length; j++)
-          {
-            //inserting table content by incrementing all the element into the arraylist
-            var table = document.getElementById("donnee2");
-            var rowCount = table.rows.length;
-            var row = table.insertRow(rowCount);
-
-            row.insertCell(0).innerHTML = ListOld[0][j][0];
-            row.insertCell(1).innerHTML = ListOld[0][j][1];
-            row.insertCell(2).innerHTML = Intl.NumberFormat().format(ListOld[0][j][2]);
-          }
-          //$(".loading").hide();
+          //category_id, category, oldVolume, newVolume
+          ListAppInsights.push([ListPreAppInsights[0][i][0], ListPreAppInsights[0][i][2], ListPreAppInsights[0][i][3], ListPreAppInsights[0][i][4]]);
         }
 
-        var list3load = function()
-        {
-          //show element first table (id, ccountry, NewVolume)
-          for(var j =0; j < mess[2][0].length; j++)
-          {
-            //inserting table content by incrementing all the element into the arraylist
-            var table = document.getElementById("donnee3");
-            var rowCount = table.rows.length;
-            var row = table.insertRow(rowCount);
+        var a = [];
+        data_load(ListHistogrammAllData); // initialize null data for the initialization of histogramm and pie chart
+        loaddatahist(Data_Load); //initialize histogramm
+        LoadPie(Data_Load) //initialize pie chart
 
-            row.insertCell(0).innerHTML = ListNew[0][j][0];
-            row.insertCell(1).innerHTML = ListNew[0][j][1];
-            row.insertCell(2).innerHTML = Intl.NumberFormat().format(ListNew[0][j][2]);
-          }
-        }
+        list1load(); // initialize table of all data
+        executeAsync(loadIntent_Interest(ListIntent_Interest)); //initialize Intent_Interest_Data into histogramm
+        executeAsync(loadLifeStyle(ListLifeStyle)); // initialize Lifestyle data into histogramm
+        executeAsync(loadBrand_Affinity(ListBrandAffinity)); //initialize Brand_affinity_Data into histogramm
+        executeAsync(loadDemographic_Insights(ListDemographic_Insights)); // initialize Demographic_Insights_Data into histogramm
+        executeAsync(loadApp_Insights(ListAppInsights)); // initialize App_Insights_Data into histogramm
 
-
-        list1load();
         executeAsync(filterSort1); //execute filter after initialize the table1
-        executeAsync(filterSort2);
-        executeAsync(filterSort3);
-        //executeAsync(list2load);
-        //executeAsync(list3load);
+        executeAsync(filterSort2); //execute filter after initialize the table2
+        executeAsync(filterSort3); //execute filter after initialize the table3
 
 
-        loadHist(ListHistogramm); //load histogramme (see hist.js)
-        LoadPie(ListHistogramm); //load piechar (see pie.js)
 
+        //initialize map volume per country
         for(var i=0; i<ListVolCat[0].length; i++)
         {
-
           ListMapCatVol.push([ListVolCat[0][i][0], ListVolCat[0][i][1]]);
         }
-        //alert(ListMapCatVol[0]);
-
         loadMap(ListMapCatVol);
+
+
+
 
         socket.setMaxListeners();//setMaxListeners to avoid memory leak (emit socket > 10)
 
       })
 
+      //alert(ListIntent_Interest);
 
 
+
+
+
+
+
+
+
+
+
+      $(document).ready(function()
+      {
+
+      });
+
+
+/*
     //table scroll
     $(window).on("load resize ", function() {
 
-      /*
+
       var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
-      $('.tbl-header').css({'padding-right':scrollWidth});*/
-
-
-      /*
-      var scrollWidth = $('.tbl-content').width();
       $('.tbl-header').css({'padding-right':scrollWidth});
-      */
 
       var scrollWidth2 = $('.tbl-content2').width() - $('.tbl-content2 table').width();
       $('.tbl-header2').css({'padding-right':scrollWidth2});
@@ -354,6 +467,7 @@
       $('.tbl-header3').css({'padding-right':scrollWidth3});
 
     }).resize();
+*/
 
 
     </script>

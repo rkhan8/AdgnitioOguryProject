@@ -31,7 +31,7 @@ function SUMVolCat(sum)
 var readCSV = require('nodecsv').readCSV;
 var path = "Volumes/old/volume/part-00000";
 var path2 = "Volumes/new/volume/part-00000";
-var path3 = "CSV/ListCat.csv";
+var pathtaxonomie = "CSV/Taxonomie.csv";
 var path4 = "CSV/mapIsoCode.csv";
 
 
@@ -56,7 +56,7 @@ var ListDistinctNewid = new ArrayList;
 var ListDistinctNew = new ArrayList;
 
 var ListPreHisto = new ArrayList;
-var ListHisto = new ArrayList;
+var ListTabTotal = new ArrayList;
 var ListPreCategory = new ArrayList;
 var ListCategoryId = new ArrayList;
 var ListCategoryCategory = new ArrayList;
@@ -121,7 +121,6 @@ module.exports =
         unique1.push(ka);
         unique1.sort();
       }
-      //console.log(unique1);
 
       var sum21 = 0;
       var tablast1 = [];
@@ -136,7 +135,6 @@ module.exports =
         }
         AdSumOld(sum21); //get volume of each id but already summed
       }
-      //console.log(tabSum1);
 
       //we need to have correct volume for each id
       var temp21 = [];
@@ -147,7 +145,6 @@ module.exports =
       {
         temp21.push(tabSum1[qa]);
       }
-      //console.log(temp21);
 
       //exact volume
       for(var q1a=0; q1a < tabSum1.length; q1a++)
@@ -159,14 +156,12 @@ module.exports =
           temp21[q1a] = parseInt(temp21[q1a]) - parseInt(tabSum1[q1a-1]);
         }
       }
-      //console.log(temp21);
 
       //add list
       for(var fa=0; fa < unique1.length; fa++)
       {
-        ListDistinctOld.push([unique1[fa], temp21[fa]]);
+        ListDistinctOld.push([unique1[fa], temp21[fa]]); //distinct old volume table (id, voltotal);
       }
-      //console.log(ListDistinctOld);
 
       //Load New Volume
       readCSV(path2, function(error, data2)
@@ -240,19 +235,25 @@ module.exports =
         //add list
         for(var f=0; f < unique.length; f++)
         {
-          ListDistinctNew.push([unique[f], temp2[f]]);
+          ListDistinctNew.push([unique[f], temp2[f]]); //distinct new volume table (id, voltotal);
         }
 
 
         //Load Category
         ListCategory = [];
-        readCSV(path3, function(error, data3)
+        var taxId = "";
+        var cat = "";
+        var datatype = "";
+
+        //readCSV(path3, function(error, data3)
+        readCSV(pathtaxonomie, function(error, data3)
         {
-          for(var c = 0; c < data3.length; c++) //Retrieve categories
+          for(var c = 1; c < data3.length; c++) //Retrieve categories
           {
-            cat_id = data3[c][0];
-            category = data3[c][1];
-            ListPreCategory.push([cat_id, category]); //List of categories data that will be distincted
+            taxId = data3[c][0];
+            cat = data3[c][1].split(">").pop();
+            datatype = data3[c][1].split(">")[1];
+            ListPreCategory.push([taxId, datatype, cat]); //add category_id, datatype and cat
           }
 
           ListPreHisto = [];
@@ -266,28 +267,20 @@ module.exports =
                   ListPreHisto.push([ListDistinctOld[k][0], ListDistinctOld[k][1], ListDistinctNew[m][1]]); //Retrieve old and new volume for each category_ID
                   ListPreHisto.sort();
               }
-
             }
           }
 
-          ListHisto = [];
+
+          ListTabTotal = [];
           //Retrieve category_ID and category
           for(var f = 0; f < ListPreCategory.length; f++)
           {
-            if(ListCategoryId.indexOf(ListPreCategory[f][0]) ==-1) //distinct method category_ID
-            {
               ListCategoryId.push(ListPreCategory[f][0]);
-
-              if(ListCategoryCategory.indexOf(ListPreCategory[f][1]) ==-1) //distinct method category
-              {
-                ListCategoryCategory.push(ListPreCategory[f][1]);
-                ListCategory.push([ListPreCategory[f][0], ListPreCategory[f][1]]); //List of distincted category_ID and category that will be used
-              }
-            }
-
+              ListCategoryCategory.push(ListPreCategory[f][2]);
+              ListCategory.push([ListPreCategory[f][0], ListPreCategory[f][2], ListPreCategory[f][1]]); //List of distincted category_ID and category that will be used
           }
 
-          //add info for table
+          //add difference for table
           for(var g = 0; g < ListCategory.length; g++)
           {
             for(var h = 0; h < ListPreHisto.length; h++)
@@ -295,18 +288,71 @@ module.exports =
               if(ListCategory[g][0] == ListPreHisto[h][0])
               {
                   var diff = ListPreHisto[h][2] - ListPreHisto[h][1];
-                  ListHisto.push([ListCategory[g][0], ListCategory[g][1], ListPreHisto[h][1], ListPreHisto[h][2], diff]); //Retrieve category_ID, category, old Volume, New Volume
-                  //ListHisto.push([ListPreHisto[h][0], ListPreHisto[h][1], ListPreHisto[h][2]]);
-                  ListHisto.sort();
+                  ListTabTotal.push([ListCategory[g][0], ListCategory[g][1], ListPreHisto[h][1], ListPreHisto[h][2], diff, ListCategory[g][2]]); //Retrieve category_ID, datatype, category, old Volume, New Volume
+                  ListTabTotal.sort();
               }
-
             }
-
           }
 
+          //console.log(ListTabTotal);
 
+          //attribuate datavolume with their respective datatype
+          var ListIntent_Interest = [];
+          var ListLifeStyle = [];
+          var ListBrandAffinity = [];
+          var ListDemographic_Insights = [];
+          var ListAppInsights = [];
+          var ListPredatatype = [];
 
+          //create a list to affect datatype to each data
+          for(var c2 = 0; c2 < ListPreCategory.length; c2++)
+          {
+            for(var c3 = 0; c3 < ListTabTotal.length; c3++)
+            {
+              if(ListPreCategory[c2][0] == ListTabTotal[c3][0])
+              {
+                //List Pre-datatype : category_id, datatype, category, oldVolume, newVolume, difference
+                ListPredatatype.push([ListTabTotal[c3][0], ListPreCategory[c2][1], ListTabTotal[c3][1], ListTabTotal[c3][2], ListTabTotal[c3][3], ListTabTotal[c3][4]]);
+              }
+            }
+          }
+          ListPredatatype.sort();
 
+          //Insert data to their respective datatype table
+          for(var k in ListPredatatype)
+          {
+            if(!ListPredatatype[k][1].indexOf(" Interest ") || !ListPredatatype[k][1].indexOf(" Certified Intenders "))
+            {
+              //category_id, datatype, category, oldVolume, newVolume
+              ListIntent_Interest.push([ListPredatatype[k][0], ListPredatatype[k][1], ListPredatatype[k][2], ListPredatatype[k][3], ListPredatatype[k][4]]);
+            }
+            if(!ListPredatatype[k][1].indexOf(" Lifestyle Profiles "))
+            {
+              //category_id, datatype, category, oldVolume, newVolume
+              ListLifeStyle.push([ListPredatatype[k][0], ListPredatatype[k][1], ListPredatatype[k][2], ListPredatatype[k][3], ListPredatatype[k][4]]);
+            }
+            if(!ListPredatatype[k][1].indexOf(" Brand Affinity "))
+            {
+              //category_id, datatype, category, oldVolume, newVolume
+              ListBrandAffinity.push([ListPredatatype[k][0], ListPredatatype[k][1], ListPredatatype[k][2], ListPredatatype[k][3], ListPredatatype[k][4]]);
+            }
+            if(!ListPredatatype[k][1].indexOf(" Demographic Insights "))
+            {
+              //category_id, datatype, category, oldVolume, newVolume
+              ListDemographic_Insights.push([ListPredatatype[k][0], ListPredatatype[k][1], ListPredatatype[k][2], ListPredatatype[k][3], ListPredatatype[k][4]]);
+            }
+            if(!ListPredatatype[k][1].indexOf(" App Ownership "))
+            {
+              //category_id, datatype, category, oldVolume, newVolume
+              ListAppInsights.push([ListPredatatype[k][0], ListPredatatype[k][1], ListPredatatype[k][2], ListPredatatype[k][3], ListPredatatype[k][4]]);
+            }
+          }
+
+          ListIntent_Interest.sort();
+          ListLifeStyle.sort();
+          ListBrandAffinity.sort();
+          ListDemographic_Insights.sort();
+          ListAppInsights.sort();
 
           //mapListISOcode
           ListMap = [];
@@ -390,9 +436,9 @@ module.exports =
 
             //console.log(ListMap);
             ListSend = [];
-            ListSend.push([ListHisto], [ListOldVolume], [ListNewVolume], [ListMap], [ListVolCat]);
+            ListSend.push([ListIntent_Interest], [ListLifeStyle], [ListBrandAffinity], [ListDemographic_Insights], [ListAppInsights], [ListTabTotal], [ListOldVolume], [ListNewVolume], [ListMap], [ListVolCat]);
 
-            //console.log(ListSend[0][0]);
+            //console.log(ListDemographic_Insights);
             callback(null, ListSend);
 
           });
@@ -400,6 +446,7 @@ module.exports =
 
 
         });
+
 
       });
 

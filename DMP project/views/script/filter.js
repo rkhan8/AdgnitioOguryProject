@@ -22,6 +22,17 @@ $(document).ready(function()
     searchTable3($(this).val()); //search this value in the table
   });
   //$(".loading").hide();
+
+
+  var a = [];
+
+
+
+  
+
+
+  //loadHist(Data_Load);
+
 });
 
 

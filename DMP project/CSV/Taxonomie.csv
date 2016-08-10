@@ -1,0 +1,449 @@
+Category ID,Path,Level1,Level2,Level3,Level4,Description
+,adgnitio,,,,,"adgnitio data is unique, high quality, directly ingested mobile-specific data. We collect this data using a proprietary algorithm crunching billions of data points from over an ever-growing 150M+ active user base."
+,adgnitio > App Ownership,adgnitio App Insights,,,,Device level data indicating high app ownership grouped by categories for lifestyle based targeting
+,adgnitio > App Ownership > Apps,adgnitio App Insights,Apps,,,Users with higher than average installed Apps by genre
+og173,adgnitio > App Ownership > Apps > Books & Reference,adgnitio App Insights,Apps,Books & Reference,,Users with higher than average installed Books & Reference apps
+og174,adgnitio > App Ownership > Apps > Business,adgnitio App Insights,Apps,Business,,Users with higher than average installed Business apps
+og175,adgnitio > App Ownership > Apps > Comics,adgnitio App Insights,Apps,Comics,,Users with higher than average installed Comics apps
+og176,adgnitio > App Ownership > Apps > Communication,adgnitio App Insights,Apps,Communication,,Users with higher than average installed Communication apps
+og177,adgnitio > App Ownership > Apps > Education,adgnitio App Insights,Apps,Education,,Users with higher than average installed Education apps
+og178,adgnitio > App Ownership > Apps > Entertainment,adgnitio App Insights,Apps,Entertainment,,Users with higher than average installed Entertainment apps
+og179,adgnitio > App Ownership > Apps > Finance,adgnitio App Insights,Apps,Finance,,Users with higher than average installed Finance apps
+og180,adgnitio > App Ownership > Apps > Health & Fitness,adgnitio App Insights,Apps,Health & Fitness,,Users with higher than average installed Health & Fitness apps
+og181,adgnitio > App Ownership > Apps > Libraries & Demo,adgnitio App Insights,Apps,Libraries & Demo,,Users with higher than average installed Libraries & Demo apps
+og182,adgnitio > App Ownership > Apps > Lifestyle,adgnitio App Insights,Apps,Lifestyle,,Users with higher than average installed Lifestyle apps
+og183,adgnitio > App Ownership > Apps > Media & Video,adgnitio App Insights,Apps,Media & Video,,Users with higher than average installed Media & Video apps
+og184,adgnitio > App Ownership > Apps > Medical,adgnitio App Insights,Apps,Medical,,Users with higher than average installed Medical apps
+og185,adgnitio > App Ownership > Apps > Music & Audio,adgnitio App Insights,Apps,Music & Audio,,Users with higher than average installed Music & Audio apps
+og186,adgnitio > App Ownership > Apps > News & Magazines,adgnitio App Insights,Apps,News & Magazines,,Users with higher than average installed News & Magazines apps
+og187,adgnitio > App Ownership > Apps > Personalization,adgnitio App Insights,Apps,Personalization,,Users with higher than average installed Personalization apps
+og188,adgnitio > App Ownership > Apps > Photography,adgnitio App Insights,Apps,Photography,,Users with higher than average installed Photography apps
+og189,adgnitio > App Ownership > Apps > Productivity,adgnitio App Insights,Apps,Productivity,,Users with higher than average installed Productivity apps
+og190,adgnitio > App Ownership > Apps > Shopping,adgnitio App Insights,Apps,Shopping,,Users with higher than average installed Shopping apps
+og191,adgnitio > App Ownership > Apps > Social,adgnitio App Insights,Apps,Social,,Users with higher than average installed Social apps
+og192,adgnitio > App Ownership > Apps > Sports,adgnitio App Insights,Apps,Sports,,Users with higher than average installed Sports apps
+og193,adgnitio > App Ownership > Apps > Tools,adgnitio App Insights,Apps,Tools,,Users with higher than average installed Tools apps
+og194,adgnitio > App Ownership > Apps > Transportation,adgnitio App Insights,Apps,Transportation,,Users with higher than average installed Transportation apps
+og195,adgnitio > App Ownership > Apps > Travel & Local,adgnitio App Insights,Apps,Travel & Local,,Users with higher than average installed Travel & Local apps
+og196,adgnitio > App Ownership > Apps > Weather,adgnitio App Insights,Apps,Weather,,Users with higher than average installed Weather apps
+,adgnitio > App Ownership > Games,adgnitio App Insights,Games,,,Users with higher than average installed Games by genre
+og198,adgnitio > App Ownership > Games > Action,adgnitio App Insights,Games,Action,,Users with higher than average installed Action games
+og199,adgnitio > App Ownership > Games > Adventure,adgnitio App Insights,Games,Adventure,,Users with higher than average installed Adventure games
+og200,adgnitio > App Ownership > Games > Arcade,adgnitio App Insights,Games,Arcade,,Users with higher than average installed Arcade games
+og201,adgnitio > App Ownership > Games > Board,adgnitio App Insights,Games,Board,,Users with higher than average installed Board games
+og202,adgnitio > App Ownership > Games > Card,adgnitio App Insights,Games,Card,,Users with higher than average installed Card games
+og204,adgnitio > App Ownership > Games > Casual,adgnitio App Insights,Games,Casual,,Users with higher than average installed Casual games
+og205,adgnitio > App Ownership > Games > Educational,adgnitio App Insights,Games,Educational,,Users with higher than average installed Educational games
+og206,adgnitio > App Ownership > Games > Family,adgnitio App Insights,Games,Family,,Users with higher than average installed Family games
+og207,adgnitio > App Ownership > Games > Music,adgnitio App Insights,Games,Music,,Users with higher than average installed Music games
+og208,adgnitio > App Ownership > Games > Puzzle,adgnitio App Insights,Games,Puzzle,,Users with higher than average installed Puzzle games
+og209,adgnitio > App Ownership > Games > Racing,adgnitio App Insights,Games,Racing,,Users with higher than average installed Racing games
+og210,adgnitio > App Ownership > Games > Role Playing,adgnitio App Insights,Games,Role Playing,,Users with higher than average installed Role Playing games
+og211,adgnitio > App Ownership > Games > Simulation,adgnitio App Insights,Games,Simulation,,Users with higher than average installed Simulation games
+og212,adgnitio > App Ownership > Games > Sports Games,adgnitio App Insights,Games,Sports Games,,Users with higher than average installed Sports Games games
+og213,adgnitio > App Ownership > Games > Strategy,adgnitio App Insights,Games,Strategy,,Users with higher than average installed Strategy games
+og214,adgnitio > App Ownership > Games > Trivia,adgnitio App Insights,Games,Trivia,,Users with higher than average installed Trivia games
+og215,adgnitio > App Ownership > Games > Word,adgnitio App Insights,Games,Word,,Users with higher than average installed Word games
+,adgnitio > Brand Affinity,adgnitio Brand Affinity,,,,"adgnitio Brand Affinity is calculated using a proprietary ranking based on deterministic user behaviour and interaction (visits, frequency, volume, etc..) with each brand."
+og217,adgnitio > Brand Affinity > 1-800-Flowers,adgnitio Brand Affinity,1-800-Flowers,,,Users who have shown high brand affinity with 1-800-Flowers
+og218,adgnitio > Brand Affinity > adidas,adgnitio Brand Affinity,adidas,,,Users who have shown high brand affinity with adidas
+og219,adgnitio > Brand Affinity > Adobe,adgnitio Brand Affinity,Adobe,,,Users who have shown high brand affinity with Adobe
+og220,adgnitio > Brand Affinity > Advance Auto Parts,adgnitio Brand Affinity,Advance Auto Parts,,,Users who have shown high brand affinity with Advance Auto Parts
+og221,adgnitio > Brand Affinity > Aeropostale,adgnitio Brand Affinity,Aeropostale,,,Users who have shown high brand affinity with Aeropostale
+og222,adgnitio > Brand Affinity > AliExpress,adgnitio Brand Affinity,AliExpress,,,Users who have shown high brand affinity with AliExpress
+og223,adgnitio > Brand Affinity > Amazon,adgnitio Brand Affinity,Amazon,,,Users who have shown high brand affinity with Amazon
+og224,adgnitio > Brand Affinity > American Airlines,adgnitio Brand Affinity,American Airlines,,,Users who have shown high brand affinity with American Airlines
+og225,adgnitio > Brand Affinity > American Eagle Outfitters,adgnitio Brand Affinity,American Eagle Outfitters,,,Users who have shown high brand affinity with American Eagle Outfitters
+og226,adgnitio > Brand Affinity > American Express,adgnitio Brand Affinity,American Express,,,Users who have shown high brand affinity with American Express
+og227,adgnitio > Brand Affinity > Ancestry.com,adgnitio Brand Affinity,Ancestry.com,,,Users who have shown high brand affinity with Ancestry.com
+og228,adgnitio > Brand Affinity > Anna's Linens,adgnitio Brand Affinity,Anna's Linens,,,Users who have shown high brand affinity with Anna's Linens
+og229,adgnitio > Brand Affinity > Apple,adgnitio Brand Affinity,Apple,,,Users who have shown high brand affinity with Apple
+og230,adgnitio > Brand Affinity > Applebee's,adgnitio Brand Affinity,Applebee's,,,Users who have shown high brand affinity with Applebee's
+og231,adgnitio > Brand Affinity > ASOS,adgnitio Brand Affinity,ASOS,,,Users who have shown high brand affinity with ASOS
+og232,adgnitio > Brand Affinity > AT&T,adgnitio Brand Affinity,AT&T,,,Users who have shown high brand affinity with AT&T
+og233,adgnitio > Brand Affinity > Audible,adgnitio Brand Affinity,Audible,,,Users who have shown high brand affinity with Audible
+og234,adgnitio > Brand Affinity > Auto Parts Warehouse,adgnitio Brand Affinity,Auto Parts Warehouse,,,Users who have shown high brand affinity with Auto Parts Warehouse
+og235,adgnitio > Brand Affinity > Autotrader,adgnitio Brand Affinity,Autotrader,,,Users who have shown high brand affinity with Autotrader
+og236,adgnitio > Brand Affinity > AutoZone,adgnitio Brand Affinity,AutoZone,,,Users who have shown high brand affinity with AutoZone
+og237,adgnitio > Brand Affinity > Avon,adgnitio Brand Affinity,Avon,,,Users who have shown high brand affinity with Avon
+og238,adgnitio > Brand Affinity > Barnes & Noble,adgnitio Brand Affinity,Barnes & Noble,,,Users who have shown high brand affinity with Barnes & Noble
+og239,adgnitio > Brand Affinity > Bass Pro Shops,adgnitio Brand Affinity,Bass Pro Shops,,,Users who have shown high brand affinity with Bass Pro Shops
+og240,adgnitio > Brand Affinity > Bath & Body Works,adgnitio Brand Affinity,Bath & Body Works,,,Users who have shown high brand affinity with Bath & Body Works
+og241,adgnitio > Brand Affinity > bebe,adgnitio Brand Affinity,bebe,,,Users who have shown high brand affinity with bebe
+og242,adgnitio > Brand Affinity > Bed Bath & Beyond,adgnitio Brand Affinity,Bed Bath & Beyond,,,Users who have shown high brand affinity with Bed Bath & Beyond
+og243,adgnitio > Brand Affinity > Best Buy,adgnitio Brand Affinity,Best Buy,,,Users who have shown high brand affinity with Best Buy
+og244,adgnitio > Brand Affinity > Best Western,adgnitio Brand Affinity,Best Western,,,Users who have shown high brand affinity with Best Western
+og245,adgnitio > Brand Affinity > Beyond.com,adgnitio Brand Affinity,Beyond.com,,,Users who have shown high brand affinity with Beyond.com
+og246,adgnitio > Brand Affinity > BJ's Wholesale Club,adgnitio Brand Affinity,BJ's Wholesale Club,,,Users who have shown high brand affinity with BJ's Wholesale Club
+og247,adgnitio > Brand Affinity > Blair,adgnitio Brand Affinity,Blair,,,Users who have shown high brand affinity with Blair
+og248,adgnitio > Brand Affinity > Bloomingdale's,adgnitio Brand Affinity,Bloomingdale's,,,Users who have shown high brand affinity with Bloomingdale's
+og249,adgnitio > Brand Affinity > Buckle,adgnitio Brand Affinity,Buckle,,,Users who have shown high brand affinity with Buckle
+og250,adgnitio > Brand Affinity > Cabela's,adgnitio Brand Affinity,Cabela's,,,Users who have shown high brand affinity with Cabela's
+og251,adgnitio > Brand Affinity > CafePress,adgnitio Brand Affinity,CafePress,,,Users who have shown high brand affinity with CafePress
+og252,adgnitio > Brand Affinity > Capital One,adgnitio Brand Affinity,Capital One,,,Users who have shown high brand affinity with Capital One
+og253,adgnitio > Brand Affinity > Carter's,adgnitio Brand Affinity,Carter's,,,Users who have shown high brand affinity with Carter's
+og254,adgnitio > Brand Affinity > Charlotte Russe,adgnitio Brand Affinity,Charlotte Russe,,,Users who have shown high brand affinity with Charlotte Russe
+og255,adgnitio > Brand Affinity > Chase,adgnitio Brand Affinity,Chase,,,Users who have shown high brand affinity with Chase
+og256,adgnitio > Brand Affinity > Cheapflights,adgnitio Brand Affinity,Cheapflights,,,Users who have shown high brand affinity with Cheapflights
+og257,adgnitio > Brand Affinity > Chilis,adgnitio Brand Affinity,Chilis,,,Users who have shown high brand affinity with Chilis
+og258,adgnitio > Brand Affinity > Choice Hotels,adgnitio Brand Affinity,Choice Hotels,,,Users who have shown high brand affinity with Choice Hotels
+og259,adgnitio > Brand Affinity > Cinemark,adgnitio Brand Affinity,Cinemark,,,Users who have shown high brand affinity with Cinemark
+og260,adgnitio > Brand Affinity > Coach,adgnitio Brand Affinity,Coach,,,Users who have shown high brand affinity with Coach
+og261,adgnitio > Brand Affinity > Costco,adgnitio Brand Affinity,Costco,,,Users who have shown high brand affinity with Costco
+og262,adgnitio > Brand Affinity > Coupons.com,adgnitio Brand Affinity,Coupons.com,,,Users who have shown high brand affinity with Coupons.com
+og263,adgnitio > Brand Affinity > CVS/pharmacy,adgnitio Brand Affinity,CVS/pharmacy,,,Users who have shown high brand affinity with CVS/pharmacy
+og264,adgnitio > Brand Affinity > Dell Home & Home Office,adgnitio Brand Affinity,Dell Home & Home Office,,,Users who have shown high brand affinity with Dell Home & Home Office
+og265,adgnitio > Brand Affinity > Delta,adgnitio Brand Affinity,Delta,,,Users who have shown high brand affinity with Delta
+og266,adgnitio > Brand Affinity > Diapers.com,adgnitio Brand Affinity,Diapers.com,,,Users who have shown high brand affinity with Diapers.com
+og267,adgnitio > Brand Affinity > Dick's Sporting Goods,adgnitio Brand Affinity,Dick's Sporting Goods,,,Users who have shown high brand affinity with Dick's Sporting Goods
+og268,adgnitio > Brand Affinity > Dillard's,adgnitio Brand Affinity,Dillard's,,,Users who have shown high brand affinity with Dillard's
+og269,adgnitio > Brand Affinity > DIRECTV,adgnitio Brand Affinity,DIRECTV,,,Users who have shown high brand affinity with DIRECTV
+og270,adgnitio > Brand Affinity > Discovery Channel Store,adgnitio Brand Affinity,Discovery Channel Store,,,Users who have shown high brand affinity with Discovery Channel Store
+og271,adgnitio > Brand Affinity > Disney Store,adgnitio Brand Affinity,Disney Store,,,Users who have shown high brand affinity with Disney Store
+og272,adgnitio > Brand Affinity > Dollar General,adgnitio Brand Affinity,Dollar General,,,Users who have shown high brand affinity with Dollar General
+og273,adgnitio > Brand Affinity > Dollar Tree,adgnitio Brand Affinity,Dollar Tree,,,Users who have shown high brand affinity with Dollar Tree
+og274,adgnitio > Brand Affinity > Domino's Pizza,adgnitio Brand Affinity,Domino's Pizza,,,Users who have shown high brand affinity with Domino's Pizza
+og275,adgnitio > Brand Affinity > DrJays,adgnitio Brand Affinity,DrJays,,,Users who have shown high brand affinity with DrJays
+og276,adgnitio > Brand Affinity > DSW,adgnitio Brand Affinity,DSW,,,Users who have shown high brand affinity with DSW
+og277,adgnitio > Brand Affinity > Dunkin' Donuts,adgnitio Brand Affinity,Dunkin' Donuts,,,Users who have shown high brand affinity with Dunkin' Donuts
+og278,adgnitio > Brand Affinity > Eastbay,adgnitio Brand Affinity,Eastbay,,,Users who have shown high brand affinity with Eastbay
+og279,adgnitio > Brand Affinity > eBay,adgnitio Brand Affinity,eBay,,,Users who have shown high brand affinity with eBay
+og280,adgnitio > Brand Affinity > Edible Arrangements,adgnitio Brand Affinity,Edible Arrangements,,,Users who have shown high brand affinity with Edible Arrangements
+og281,adgnitio > Brand Affinity > Enterprise Rent-A-Car,adgnitio Brand Affinity,Enterprise Rent-A-Car,,,Users who have shown high brand affinity with Enterprise Rent-A-Car
+og282,adgnitio > Brand Affinity > Etsy,adgnitio Brand Affinity,Etsy,,,Users who have shown high brand affinity with Etsy
+og283,adgnitio > Brand Affinity > EverSave,adgnitio Brand Affinity,EverSave,,,Users who have shown high brand affinity with EverSave
+og284,adgnitio > Brand Affinity > Expedia,adgnitio Brand Affinity,Expedia,,,Users who have shown high brand affinity with Expedia
+og285,adgnitio > Brand Affinity > Express,adgnitio Brand Affinity,Express,,,Users who have shown high brand affinity with Express
+og286,adgnitio > Brand Affinity > Famous Footwear,adgnitio Brand Affinity,Famous Footwear,,,Users who have shown high brand affinity with Famous Footwear
+og287,adgnitio > Brand Affinity > Fandango,adgnitio Brand Affinity,Fandango,,,Users who have shown high brand affinity with Fandango
+og288,adgnitio > Brand Affinity > Fingerhut,adgnitio Brand Affinity,Fingerhut,,,Users who have shown high brand affinity with Fingerhut
+og289,adgnitio > Brand Affinity > Finish Line,adgnitio Brand Affinity,Finish Line,,,Users who have shown high brand affinity with Finish Line
+og290,adgnitio > Brand Affinity > Foot Locker,adgnitio Brand Affinity,Foot Locker,,,Users who have shown high brand affinity with Foot Locker
+og291,adgnitio > Brand Affinity > Forever 21,adgnitio Brand Affinity,Forever 21,,,Users who have shown high brand affinity with Forever 21
+og292,adgnitio > Brand Affinity > FragranceNet.com,adgnitio Brand Affinity,FragranceNet.com,,,Users who have shown high brand affinity with FragranceNet.com
+og293,adgnitio > Brand Affinity > Fry's,adgnitio Brand Affinity,Fry's,,,Users who have shown high brand affinity with Fry's
+og294,adgnitio > Brand Affinity > GameStop,adgnitio Brand Affinity,GameStop,,,Users who have shown high brand affinity with GameStop
+og295,adgnitio > Brand Affinity > Gap,adgnitio Brand Affinity,Gap,,,Users who have shown high brand affinity with Gap
+og296,adgnitio > Brand Affinity > GNC,adgnitio Brand Affinity,GNC,,,Users who have shown high brand affinity with GNC
+og297,adgnitio > Brand Affinity > Google Play,adgnitio Brand Affinity,Google Play,,,Users who have shown high brand affinity with Google Play
+og298,adgnitio > Brand Affinity > Groupon,adgnitio Brand Affinity,Groupon,,,Users who have shown high brand affinity with Groupon
+og299,adgnitio > Brand Affinity > Guitar Center,adgnitio Brand Affinity,Guitar Center,,,Users who have shown high brand affinity with Guitar Center
+og300,adgnitio > Brand Affinity > Gymboree,adgnitio Brand Affinity,Gymboree,,,Users who have shown high brand affinity with Gymboree
+og301,adgnitio > Brand Affinity > H&M,adgnitio Brand Affinity,H&M,,,Users who have shown high brand affinity with H&M
+og302,adgnitio > Brand Affinity > H&R Block At Home,adgnitio Brand Affinity,H&R Block At Home,,,Users who have shown high brand affinity with H&R Block At Home
+og303,adgnitio > Brand Affinity > HauteLook,adgnitio Brand Affinity,HauteLook,,,Users who have shown high brand affinity with HauteLook
+og304,adgnitio > Brand Affinity > Hayneedle,adgnitio Brand Affinity,Hayneedle,,,Users who have shown high brand affinity with Hayneedle
+og305,adgnitio > Brand Affinity > Hilton,adgnitio Brand Affinity,Hilton,,,Users who have shown high brand affinity with Hilton
+og306,adgnitio > Brand Affinity > Home Depot,adgnitio Brand Affinity,Home Depot,,,Users who have shown high brand affinity with Home Depot
+og307,adgnitio > Brand Affinity > Hot Topic,adgnitio Brand Affinity,Hot Topic,,,Users who have shown high brand affinity with Hot Topic
+og308,adgnitio > Brand Affinity > Hotels.com,adgnitio Brand Affinity,Hotels.com,,,Users who have shown high brand affinity with Hotels.com
+og309,adgnitio > Brand Affinity > Hotwire,adgnitio Brand Affinity,Hotwire,,,Users who have shown high brand affinity with Hotwire
+og310,adgnitio > Brand Affinity > HP Home & Home Office,adgnitio Brand Affinity,HP Home & Home Office,,,Users who have shown high brand affinity with HP Home & Home Office
+og311,adgnitio > Brand Affinity > HSN,adgnitio Brand Affinity,HSN,,,Users who have shown high brand affinity with HSN
+og312,adgnitio > Brand Affinity > ideeli,adgnitio Brand Affinity,ideeli,,,Users who have shown high brand affinity with ideeli
+og313,adgnitio > Brand Affinity > IHOP,adgnitio Brand Affinity,IHOP,,,Users who have shown high brand affinity with IHOP
+og314,adgnitio > Brand Affinity > IKEA,adgnitio Brand Affinity,IKEA,,,Users who have shown high brand affinity with IKEA
+og315,adgnitio > Brand Affinity > JCPenney,adgnitio Brand Affinity,JCPenney,,,Users who have shown high brand affinity with JCPenney
+og316,adgnitio > Brand Affinity > JetBlue,adgnitio Brand Affinity,JetBlue,,,Users who have shown high brand affinity with JetBlue
+og317,adgnitio > Brand Affinity > Jo-Ann,adgnitio Brand Affinity,Jo-Ann,,,Users who have shown high brand affinity with Jo-Ann
+og318,adgnitio > Brand Affinity > Joss & Main,adgnitio Brand Affinity,Joss & Main,,,Users who have shown high brand affinity with Joss & Main
+og319,adgnitio > Brand Affinity > JustFab,adgnitio Brand Affinity,JustFab,,,Users who have shown high brand affinity with JustFab
+og320,adgnitio > Brand Affinity > Justice,adgnitio Brand Affinity,Justice,,,Users who have shown high brand affinity with Justice
+og321,adgnitio > Brand Affinity > Kay Jewelers,adgnitio Brand Affinity,Kay Jewelers,,,Users who have shown high brand affinity with Kay Jewelers
+og322,adgnitio > Brand Affinity > Kirkland's Home Decor,adgnitio Brand Affinity,Kirkland's Home Decor,,,Users who have shown high brand affinity with Kirkland's Home Decor
+og323,adgnitio > Brand Affinity > Kmart,adgnitio Brand Affinity,Kmart,,,Users who have shown high brand affinity with Kmart
+og324,adgnitio > Brand Affinity > Kohl's,adgnitio Brand Affinity,Kohl's,,,Users who have shown high brand affinity with Kohl's
+og325,adgnitio > Brand Affinity > Kroger,adgnitio Brand Affinity,Kroger,,,Users who have shown high brand affinity with Kroger
+og326,adgnitio > Brand Affinity > Lane Bryant,adgnitio Brand Affinity,Lane Bryant,,,Users who have shown high brand affinity with Lane Bryant
+og327,adgnitio > Brand Affinity > LEGO,adgnitio Brand Affinity,LEGO,,,Users who have shown high brand affinity with LEGO
+og328,adgnitio > Brand Affinity > Levi's,adgnitio Brand Affinity,Levi's,,,Users who have shown high brand affinity with Levi's
+og329,adgnitio > Brand Affinity > Lids,adgnitio Brand Affinity,Lids,,,Users who have shown high brand affinity with Lids
+og330,adgnitio > Brand Affinity > LivingSocial,adgnitio Brand Affinity,LivingSocial,,,Users who have shown high brand affinity with LivingSocial
+og331,adgnitio > Brand Affinity > Longhorn Steakhouse,adgnitio Brand Affinity,Longhorn Steakhouse,,,Users who have shown high brand affinity with Longhorn Steakhouse
+og332,adgnitio > Brand Affinity > Lowe's,adgnitio Brand Affinity,Lowe's,,,Users who have shown high brand affinity with Lowe's
+og333,adgnitio > Brand Affinity > Macy's,adgnitio Brand Affinity,Macy's,,,Users who have shown high brand affinity with Macy's
+og334,adgnitio > Brand Affinity > Marriott,adgnitio Brand Affinity,Marriott,,,Users who have shown high brand affinity with Marriott
+og335,adgnitio > Brand Affinity > Match.com,adgnitio Brand Affinity,Match.com,,,Users who have shown high brand affinity with Match.com
+og336,adgnitio > Brand Affinity > Maurices,adgnitio Brand Affinity,Maurices,,,Users who have shown high brand affinity with Maurices
+og337,adgnitio > Brand Affinity > Meijer,adgnitio Brand Affinity,Meijer,,,Users who have shown high brand affinity with Meijer
+og338,adgnitio > Brand Affinity > Michael's,adgnitio Brand Affinity,Michael's,,,Users who have shown high brand affinity with Michael's
+og339,adgnitio > Brand Affinity > Mint.com,adgnitio Brand Affinity,Mint.com,,,Users who have shown high brand affinity with Mint.com
+og340,adgnitio > Brand Affinity > MLB.com,adgnitio Brand Affinity,MLB.com,,,Users who have shown high brand affinity with MLB.com
+og341,adgnitio > Brand Affinity > ModCloth,adgnitio Brand Affinity,ModCloth,,,Users who have shown high brand affinity with ModCloth
+og342,adgnitio > Brand Affinity > Montgomery Ward,adgnitio Brand Affinity,Montgomery Ward,,,Users who have shown high brand affinity with Montgomery Ward
+og343,adgnitio > Brand Affinity > MYHABIT,adgnitio Brand Affinity,MYHABIT,,,Users who have shown high brand affinity with MYHABIT
+og344,adgnitio > Brand Affinity > NASCAR Superstore,adgnitio Brand Affinity,NASCAR Superstore,,,Users who have shown high brand affinity with NASCAR Superstore
+og345,adgnitio > Brand Affinity > National Geographic,adgnitio Brand Affinity,National Geographic,,,Users who have shown high brand affinity with National Geographic
+og346,adgnitio > Brand Affinity > NBA Store,adgnitio Brand Affinity,NBA Store,,,Users who have shown high brand affinity with NBA Store
+og347,adgnitio > Brand Affinity > Neiman Marcus,adgnitio Brand Affinity,Neiman Marcus,,,Users who have shown high brand affinity with Neiman Marcus
+og348,adgnitio > Brand Affinity > Netflix,adgnitio Brand Affinity,Netflix,,,Users who have shown high brand affinity with Netflix
+og349,adgnitio > Brand Affinity > New Balance,adgnitio Brand Affinity,New Balance,,,Users who have shown high brand affinity with New Balance
+og350,adgnitio > Brand Affinity > New York & Company,adgnitio Brand Affinity,New York & Company,,,Users who have shown high brand affinity with New York & Company
+og351,adgnitio > Brand Affinity > Newegg,adgnitio Brand Affinity,Newegg,,,Users who have shown high brand affinity with Newegg
+og352,adgnitio > Brand Affinity > NFL Shop,adgnitio Brand Affinity,NFL Shop,,,Users who have shown high brand affinity with NFL Shop
+og353,adgnitio > Brand Affinity > Nike,adgnitio Brand Affinity,Nike,,,Users who have shown high brand affinity with Nike
+og354,adgnitio > Brand Affinity > No More Rack,adgnitio Brand Affinity,No More Rack,,,Users who have shown high brand affinity with No More Rack
+og355,adgnitio > Brand Affinity > Nordstrom,adgnitio Brand Affinity,Nordstrom,,,Users who have shown high brand affinity with Nordstrom
+og356,adgnitio > Brand Affinity > Office Depot,adgnitio Brand Affinity,Office Depot,,,Users who have shown high brand affinity with Office Depot
+og357,adgnitio > Brand Affinity > Old Navy,adgnitio Brand Affinity,Old Navy,,,Users who have shown high brand affinity with Old Navy
+og358,adgnitio > Brand Affinity > Olive Garden,adgnitio Brand Affinity,Olive Garden,,,Users who have shown high brand affinity with Olive Garden
+og359,adgnitio > Brand Affinity > OneStopPlus,adgnitio Brand Affinity,OneStopPlus,,,Users who have shown high brand affinity with OneStopPlus
+og360,adgnitio > Brand Affinity > Orbitz,adgnitio Brand Affinity,Orbitz,,,Users who have shown high brand affinity with Orbitz
+og361,adgnitio > Brand Affinity > Oriental Trading Company,adgnitio Brand Affinity,Oriental Trading Company,,,Users who have shown high brand affinity with Oriental Trading Company
+og362,adgnitio > Brand Affinity > Outback Steakhouse,adgnitio Brand Affinity,Outback Steakhouse,,,Users who have shown high brand affinity with Outback Steakhouse
+og363,adgnitio > Brand Affinity > Overstock,adgnitio Brand Affinity,Overstock,,,Users who have shown high brand affinity with Overstock
+og364,adgnitio > Brand Affinity > Papa John's,adgnitio Brand Affinity,Papa John's,,,Users who have shown high brand affinity with Papa John's
+og365,adgnitio > Brand Affinity > Party City Store,adgnitio Brand Affinity,Party City Store,,,Users who have shown high brand affinity with Party City Store
+og366,adgnitio > Brand Affinity > Payless Shoes,adgnitio Brand Affinity,Payless Shoes,,,Users who have shown high brand affinity with Payless Shoes
+og367,adgnitio > Brand Affinity > PETCO,adgnitio Brand Affinity,PETCO,,,Users who have shown high brand affinity with PETCO
+og368,adgnitio > Brand Affinity > PetSmart,adgnitio Brand Affinity,PetSmart,,,Users who have shown high brand affinity with PetSmart
+og369,adgnitio > Brand Affinity > Pizza Hut,adgnitio Brand Affinity,Pizza Hut,,,Users who have shown high brand affinity with Pizza Hut
+og370,adgnitio > Brand Affinity > Pottery Barn,adgnitio Brand Affinity,Pottery Barn,,,Users who have shown high brand affinity with Pottery Barn
+og371,adgnitio > Brand Affinity > Pottery Barn Kids,adgnitio Brand Affinity,Pottery Barn Kids,,,Users who have shown high brand affinity with Pottery Barn Kids
+og372,adgnitio > Brand Affinity > Priceline,adgnitio Brand Affinity,Priceline,,,Users who have shown high brand affinity with Priceline
+og373,adgnitio > Brand Affinity > ProFlowers,adgnitio Brand Affinity,ProFlowers,,,Users who have shown high brand affinity with ProFlowers
+og374,adgnitio > Brand Affinity > Quality Health,adgnitio Brand Affinity,Quality Health,,,Users who have shown high brand affinity with Quality Health
+og375,adgnitio > Brand Affinity > QVC,adgnitio Brand Affinity,QVC,,,Users who have shown high brand affinity with QVC
+og376,adgnitio > Brand Affinity > RadioShack,adgnitio Brand Affinity,RadioShack,,,Users who have shown high brand affinity with RadioShack
+og377,adgnitio > Brand Affinity > Ralph Lauren,adgnitio Brand Affinity,Ralph Lauren,,,Users who have shown high brand affinity with Ralph Lauren
+og378,adgnitio > Brand Affinity > Red Lobster,adgnitio Brand Affinity,Red Lobster,,,Users who have shown high brand affinity with Red Lobster
+og379,adgnitio > Brand Affinity > Redbox,adgnitio Brand Affinity,Redbox,,,Users who have shown high brand affinity with Redbox
+og380,adgnitio > Brand Affinity > REI,adgnitio Brand Affinity,REI,,,Users who have shown high brand affinity with REI
+og381,adgnitio > Brand Affinity > Restaurant.com,adgnitio Brand Affinity,Restaurant.com,,,Users who have shown high brand affinity with Restaurant.com
+og382,adgnitio > Brand Affinity > RiteAid,adgnitio Brand Affinity,RiteAid,,,Users who have shown high brand affinity with RiteAid
+og383,adgnitio > Brand Affinity > Safeway,adgnitio Brand Affinity,Safeway,,,Users who have shown high brand affinity with Safeway
+og384,adgnitio > Brand Affinity > Saks,adgnitio Brand Affinity,Saks,,,Users who have shown high brand affinity with Saks
+og385,adgnitio > Brand Affinity > Sally Beauty Supply,adgnitio Brand Affinity,Sally Beauty Supply,,,Users who have shown high brand affinity with Sally Beauty Supply
+og386,adgnitio > Brand Affinity > Sam's Club,adgnitio Brand Affinity,Sam's Club,,,Users who have shown high brand affinity with Sam's Club
+og387,adgnitio > Brand Affinity > Samsung,adgnitio Brand Affinity,Samsung,,,Users who have shown high brand affinity with Samsung
+og388,adgnitio > Brand Affinity > Sears,adgnitio Brand Affinity,Sears,,,Users who have shown high brand affinity with Sears
+og389,adgnitio > Brand Affinity > Sephora,adgnitio Brand Affinity,Sephora,,,Users who have shown high brand affinity with Sephora
+og390,adgnitio > Brand Affinity > Seventh Avenue,adgnitio Brand Affinity,Seventh Avenue,,,Users who have shown high brand affinity with Seventh Avenue
+og391,adgnitio > Brand Affinity > ShoeDazzle,adgnitio Brand Affinity,ShoeDazzle,,,Users who have shown high brand affinity with ShoeDazzle
+og392,adgnitio > Brand Affinity > Shutterfly,adgnitio Brand Affinity,Shutterfly,,,Users who have shown high brand affinity with Shutterfly
+og393,adgnitio > Brand Affinity > Skype,adgnitio Brand Affinity,Skype,,,Users who have shown high brand affinity with Skype
+og394,adgnitio > Brand Affinity > Southwest Airlines,adgnitio Brand Affinity,Southwest Airlines,,,Users who have shown high brand affinity with Southwest Airlines
+og395,adgnitio > Brand Affinity > Sports Authority,adgnitio Brand Affinity,Sports Authority,,,Users who have shown high brand affinity with Sports Authority
+og396,adgnitio > Brand Affinity > Sprint,adgnitio Brand Affinity,Sprint,,,Users who have shown high brand affinity with Sprint
+og397,adgnitio > Brand Affinity > Staples,adgnitio Brand Affinity,Staples,,,Users who have shown high brand affinity with Staples
+og398,adgnitio > Brand Affinity > Starwood Hotels Resorts,adgnitio Brand Affinity,Starwood Hotels Resorts,,,Users who have shown high brand affinity with Starwood Hotels Resorts
+og399,adgnitio > Brand Affinity > Subway,adgnitio Brand Affinity,Subway,,,Users who have shown high brand affinity with Subway
+og401,adgnitio > Brand Affinity > Target,adgnitio Brand Affinity,Target,,,Users who have shown high brand affinity with Target
+og402,adgnitio > Brand Affinity > Texas Roadhouse,adgnitio Brand Affinity,Texas Roadhouse,,,Users who have shown high brand affinity with Texas Roadhouse
+og403,adgnitio > Brand Affinity > TGI Fridays,adgnitio Brand Affinity,TGI Fridays,,,Users who have shown high brand affinity with TGI Fridays
+og404,adgnitio > Brand Affinity > The Children's Place,adgnitio Brand Affinity,The Children's Place,,,Users who have shown high brand affinity with The Children's Place
+og405,adgnitio > Brand Affinity > The Knot,adgnitio Brand Affinity,The Knot,,,Users who have shown high brand affinity with The Knot
+og406,adgnitio > Brand Affinity > The North Face,adgnitio Brand Affinity,The North Face,,,Users who have shown high brand affinity with The North Face
+og400,adgnitio > Brand Affinity > T-Mobile,adgnitio Brand Affinity,T-Mobile,,,Users who have shown high brand affinity with T-Mobile
+og407,adgnitio > Brand Affinity > Toys'R'Us,adgnitio Brand Affinity,Toys'R'Us,,,Users who have shown high brand affinity with Toys'R'Us
+og408,adgnitio > Brand Affinity > Travelocity,adgnitio Brand Affinity,Travelocity,,,Users who have shown high brand affinity with Travelocity
+og409,adgnitio > Brand Affinity > Travelzoo,adgnitio Brand Affinity,Travelzoo,,,Users who have shown high brand affinity with Travelzoo
+og410,adgnitio > Brand Affinity > TripAdvisor,adgnitio Brand Affinity,TripAdvisor,,,Users who have shown high brand affinity with TripAdvisor
+og411,adgnitio > Brand Affinity > TurboTax,adgnitio Brand Affinity,TurboTax,,,Users who have shown high brand affinity with TurboTax
+og412,adgnitio > Brand Affinity > UGG Australia,adgnitio Brand Affinity,UGG Australia,,,Users who have shown high brand affinity with UGG Australia
+og413,adgnitio > Brand Affinity > ULTA,adgnitio Brand Affinity,ULTA,,,Users who have shown high brand affinity with ULTA
+og414,adgnitio > Brand Affinity > Under Armour,adgnitio Brand Affinity,Under Armour,,,Users who have shown high brand affinity with Under Armour
+og415,adgnitio > Brand Affinity > United,adgnitio Brand Affinity,United,,,Users who have shown high brand affinity with United
+og416,adgnitio > Brand Affinity > Urban Outfitters,adgnitio Brand Affinity,Urban Outfitters,,,Users who have shown high brand affinity with Urban Outfitters
+og417,adgnitio > Brand Affinity > Verizon Wireless,adgnitio Brand Affinity,Verizon Wireless,,,Users who have shown high brand affinity with Verizon Wireless
+og418,adgnitio > Brand Affinity > Victoria's Secret,adgnitio Brand Affinity,Victoria's Secret,,,Users who have shown high brand affinity with Victoria's Secret
+og419,adgnitio > Brand Affinity > Vistaprint,adgnitio Brand Affinity,Vistaprint,,,Users who have shown high brand affinity with Vistaprint
+og420,adgnitio > Brand Affinity > Walgreens,adgnitio Brand Affinity,Walgreens,,,Users who have shown high brand affinity with Walgreens
+og421,adgnitio > Brand Affinity > Walmart,adgnitio Brand Affinity,Walmart,,,Users who have shown high brand affinity with Walmart
+og422,adgnitio > Brand Affinity > Wayfair,adgnitio Brand Affinity,Wayfair,,,Users who have shown high brand affinity with Wayfair
+og423,adgnitio > Brand Affinity > Weight Watchers,adgnitio Brand Affinity,Weight Watchers,,,Users who have shown high brand affinity with Weight Watchers
+og424,adgnitio > Brand Affinity > Wet Seal,adgnitio Brand Affinity,Wet Seal,,,Users who have shown high brand affinity with Wet Seal
+og425,adgnitio > Brand Affinity > Yelp,adgnitio Brand Affinity,Yelp,,,Users who have shown high brand affinity with Yelp
+og426,adgnitio > Brand Affinity > Zales,adgnitio Brand Affinity,Zales,,,Users who have shown high brand affinity with Zales
+og427,adgnitio > Brand Affinity > Zappos,adgnitio Brand Affinity,Zappos,,,Users who have shown high brand affinity with Zappos
+og428,adgnitio > Brand Affinity > Zazzle,adgnitio Brand Affinity,Zazzle,,,Users who have shown high brand affinity with Zazzle
+og429,adgnitio > Brand Affinity > zulily,adgnitio Brand Affinity,zulily,,,Users who have shown high brand affinity with zulily
+og000,adgnitio > Certified Intenders,adgnitio Intenders,,,,adgnitio Certified Intender data is extracted from proprietary algorithmic observation of mobile behavior and signals clear consumer intent to purchase
+og001,adgnitio > Certified Intenders > Automotive,adgnitio Intenders,Automotive,,,"Users who have shown intent to purchase Automotive related products/services"""
+og002,adgnitio > Certified Intenders > Automotive > Makes,adgnitio Intenders,Automotive,Makes,,Users who have shown intent to purchase Automotive related products/services by Make
+og003,adgnitio > Certified Intenders > Automotive > Makes > Abarth,adgnitio Intenders,Automotive,Makes,Abarth,Users who have shown intent to purchase Abarth related products/services
+og004,adgnitio > Certified Intenders > Automotive > Makes > Acura,adgnitio Intenders,Automotive,Makes,Acura,Users who have shown intent to purchase Acura related products/services
+og005,adgnitio > Certified Intenders > Automotive > Makes > Aixam,adgnitio Intenders,Automotive,Makes,Aixam,Users who have shown intent to purchase Aixam related products/services
+og006,adgnitio > Certified Intenders > Automotive > Makes > Alfa Romeo,adgnitio Intenders,Automotive,Makes,Alfa Romeo,Users who have shown intent to purchase Alfa Romeo related products/services
+og007,adgnitio > Certified Intenders > Automotive > Makes > American Motors,adgnitio Intenders,Automotive,Makes,American Motors,Users who have shown intent to purchase American Motors related products/services
+og008,adgnitio > Certified Intenders > Automotive > Makes > Ariel,adgnitio Intenders,Automotive,Makes,Ariel,Users who have shown intent to purchase Ariel related products/services
+og009,adgnitio > Certified Intenders > Automotive > Makes > Aston Martin,adgnitio Intenders,Automotive,Makes,Aston Martin,Users who have shown intent to purchase Aston Martin related products/services
+og010,adgnitio > Certified Intenders > Automotive > Makes > Auburn,adgnitio Intenders,Automotive,Makes,Auburn,Users who have shown intent to purchase Auburn related products/services
+og011,adgnitio > Certified Intenders > Automotive > Makes > Audi,adgnitio Intenders,Automotive,Makes,Audi,Users who have shown intent to purchase Audi related products/services
+og012,adgnitio > Certified Intenders > Automotive > Makes > Austin Healey,adgnitio Intenders,Automotive,Makes,Austin Healey,Users who have shown intent to purchase Austin Healey related products/services
+og013,adgnitio > Certified Intenders > Automotive > Makes > Bentley,adgnitio Intenders,Automotive,Makes,Bentley,Users who have shown intent to purchase Bentley related products/services
+og014,adgnitio > Certified Intenders > Automotive > Makes > BMW,adgnitio Intenders,Automotive,Makes,BMW,Users who have shown intent to purchase BMW related products/services
+og015,adgnitio > Certified Intenders > Automotive > Makes > Bugatti,adgnitio Intenders,Automotive,Makes,Bugatti,Users who have shown intent to purchase Bugatti related products/services
+og016,adgnitio > Certified Intenders > Automotive > Makes > Buick,adgnitio Intenders,Automotive,Makes,Buick,Users who have shown intent to purchase Buick related products/services
+og017,adgnitio > Certified Intenders > Automotive > Makes > Cadillac,adgnitio Intenders,Automotive,Makes,Cadillac,Users who have shown intent to purchase Cadillac related products/services
+og018,adgnitio > Certified Intenders > Automotive > Makes > Chevrolet,adgnitio Intenders,Automotive,Makes,Chevrolet,Users who have shown intent to purchase Chevrolet related products/services
+og019,adgnitio > Certified Intenders > Automotive > Makes > Chrysler,adgnitio Intenders,Automotive,Makes,Chrysler,Users who have shown intent to purchase Chrysler related products/services
+og020,adgnitio > Certified Intenders > Automotive > Makes > Citroen,adgnitio Intenders,Automotive,Makes,Citroen,Users who have shown intent to purchase Citroen related products/services
+og021,adgnitio > Certified Intenders > Automotive > Makes > Dacia,adgnitio Intenders,Automotive,Makes,Dacia,Users who have shown intent to purchase Dacia related products/services
+og022,adgnitio > Certified Intenders > Automotive > Makes > Daewoo,adgnitio Intenders,Automotive,Makes,Daewoo,Users who have shown intent to purchase Daewoo related products/services
+og023,adgnitio > Certified Intenders > Automotive > Makes > Daihatsu,adgnitio Intenders,Automotive,Makes,Daihatsu,Users who have shown intent to purchase Daihatsu related products/services
+og024,adgnitio > Certified Intenders > Automotive > Makes > Datsun,adgnitio Intenders,Automotive,Makes,Datsun,Users who have shown intent to purchase Datsun related products/services
+og025,adgnitio > Certified Intenders > Automotive > Makes > De Tomaso,adgnitio Intenders,Automotive,Makes,De Tomaso,Users who have shown intent to purchase De Tomaso related products/services
+og026,adgnitio > Certified Intenders > Automotive > Makes > DeLorean/DMC,adgnitio Intenders,Automotive,Makes,DeLorean/DMC,Users who have shown intent to purchase DeLorean/DMC related products/services
+og027,adgnitio > Certified Intenders > Automotive > Makes > DeSoto,adgnitio Intenders,Automotive,Makes,DeSoto,Users who have shown intent to purchase DeSoto related products/services
+og028,adgnitio > Certified Intenders > Automotive > Makes > Dodge,adgnitio Intenders,Automotive,Makes,Dodge,Users who have shown intent to purchase Dodge related products/services
+og029,adgnitio > Certified Intenders > Automotive > Makes > Eagle,adgnitio Intenders,Automotive,Makes,Eagle,Users who have shown intent to purchase Eagle related products/services
+og030,adgnitio > Certified Intenders > Automotive > Makes > Ferrari,adgnitio Intenders,Automotive,Makes,Ferrari,Users who have shown intent to purchase Ferrari related products/services
+og031,adgnitio > Certified Intenders > Automotive > Makes > Fiat,adgnitio Intenders,Automotive,Makes,Fiat,Users who have shown intent to purchase Fiat related products/services
+og032,adgnitio > Certified Intenders > Automotive > Makes > Ford,adgnitio Intenders,Automotive,Makes,Ford,Users who have shown intent to purchase Ford related products/services
+og033,adgnitio > Certified Intenders > Automotive > Makes > Geo,adgnitio Intenders,Automotive,Makes,Geo,Users who have shown intent to purchase Geo related products/services
+og034,adgnitio > Certified Intenders > Automotive > Makes > GMC,adgnitio Intenders,Automotive,Makes,GMC,Users who have shown intent to purchase GMC related products/services
+og035,adgnitio > Certified Intenders > Automotive > Makes > Holden,adgnitio Intenders,Automotive,Makes,Holden,Users who have shown intent to purchase Holden related products/services
+og036,adgnitio > Certified Intenders > Automotive > Makes > Honda,adgnitio Intenders,Automotive,Makes,Honda,Users who have shown intent to purchase Honda related products/services
+og037,adgnitio > Certified Intenders > Automotive > Makes > Hummer,adgnitio Intenders,Automotive,Makes,Hummer,Users who have shown intent to purchase Hummer related products/services
+og038,adgnitio > Certified Intenders > Automotive > Makes > Hyundai,adgnitio Intenders,Automotive,Makes,Hyundai,Users who have shown intent to purchase Hyundai related products/services
+og039,adgnitio > Certified Intenders > Automotive > Makes > Infiniti,adgnitio Intenders,Automotive,Makes,Infiniti,Users who have shown intent to purchase Infiniti related products/services
+og040,adgnitio > Certified Intenders > Automotive > Makes > International,adgnitio Intenders,Automotive,Makes,International,Users who have shown intent to purchase International related products/services
+og041,adgnitio > Certified Intenders > Automotive > Makes > Isuzu,adgnitio Intenders,Automotive,Makes,Isuzu,Users who have shown intent to purchase Isuzu related products/services
+og042,adgnitio > Certified Intenders > Automotive > Makes > Jaguar,adgnitio Intenders,Automotive,Makes,Jaguar,Users who have shown intent to purchase Jaguar related products/services
+og043,adgnitio > Certified Intenders > Automotive > Makes > Jeep,adgnitio Intenders,Automotive,Makes,Jeep,Users who have shown intent to purchase Jeep related products/services
+og044,adgnitio > Certified Intenders > Automotive > Makes > Kia,adgnitio Intenders,Automotive,Makes,Kia,Users who have shown intent to purchase Kia related products/services
+og045,adgnitio > Certified Intenders > Automotive > Makes > Koenigsegg,adgnitio Intenders,Automotive,Makes,Koenigsegg,Users who have shown intent to purchase Koenigsegg related products/services
+og046,adgnitio > Certified Intenders > Automotive > Makes > Lada,adgnitio Intenders,Automotive,Makes,Lada,Users who have shown intent to purchase Lada related products/services
+og047,adgnitio > Certified Intenders > Automotive > Makes > Lamborghini,adgnitio Intenders,Automotive,Makes,Lamborghini,Users who have shown intent to purchase Lamborghini related products/services
+og048,adgnitio > Certified Intenders > Automotive > Makes > Lancia,adgnitio Intenders,Automotive,Makes,Lancia,Users who have shown intent to purchase Lancia related products/services
+og049,adgnitio > Certified Intenders > Automotive > Makes > Land Rover,adgnitio Intenders,Automotive,Makes,Land Rover,Users who have shown intent to purchase Land Rover related products/services
+og050,adgnitio > Certified Intenders > Automotive > Makes > Lexus,adgnitio Intenders,Automotive,Makes,Lexus,Users who have shown intent to purchase Lexus related products/services
+og051,adgnitio > Certified Intenders > Automotive > Makes > Lincoln,adgnitio Intenders,Automotive,Makes,Lincoln,Users who have shown intent to purchase Lincoln related products/services
+og052,adgnitio > Certified Intenders > Automotive > Makes > Lotus,adgnitio Intenders,Automotive,Makes,Lotus,Users who have shown intent to purchase Lotus related products/services
+og053,adgnitio > Certified Intenders > Automotive > Makes > Maserati,adgnitio Intenders,Automotive,Makes,Maserati,Users who have shown intent to purchase Maserati related products/services
+og054,adgnitio > Certified Intenders > Automotive > Makes > Maybach,adgnitio Intenders,Automotive,Makes,Maybach,Users who have shown intent to purchase Maybach related products/services
+og055,adgnitio > Certified Intenders > Automotive > Makes > Mazda,adgnitio Intenders,Automotive,Makes,Mazda,Users who have shown intent to purchase Mazda related products/services
+og056,adgnitio > Certified Intenders > Automotive > Makes > McLaren,adgnitio Intenders,Automotive,Makes,McLaren,Users who have shown intent to purchase McLaren related products/services
+og057,adgnitio > Certified Intenders > Automotive > Makes > Mercedes Benz,adgnitio Intenders,Automotive,Makes,Mercedes Benz,Users who have shown intent to purchase Mercedes Benz related products/services
+og058,adgnitio > Certified Intenders > Automotive > Makes > Mercury,adgnitio Intenders,Automotive,Makes,Mercury,Users who have shown intent to purchase Mercury related products/services
+og059,adgnitio > Certified Intenders > Automotive > Makes > MINI,adgnitio Intenders,Automotive,Makes,MINI,Users who have shown intent to purchase MINI related products/services
+og060,adgnitio > Certified Intenders > Automotive > Makes > Mitsubishi,adgnitio Intenders,Automotive,Makes,Mitsubishi,Users who have shown intent to purchase Mitsubishi related products/services
+og061,adgnitio > Certified Intenders > Automotive > Makes > Morgan,adgnitio Intenders,Automotive,Makes,Morgan,Users who have shown intent to purchase Morgan related products/services
+og062,adgnitio > Certified Intenders > Automotive > Makes > Nash,adgnitio Intenders,Automotive,Makes,Nash,Users who have shown intent to purchase Nash related products/services
+og063,adgnitio > Certified Intenders > Automotive > Makes > Nissan,adgnitio Intenders,Automotive,Makes,Nissan,Users who have shown intent to purchase Nissan related products/services
+og064,adgnitio > Certified Intenders > Automotive > Makes > Oldsmobile,adgnitio Intenders,Automotive,Makes,Oldsmobile,Users who have shown intent to purchase Oldsmobile related products/services
+og065,adgnitio > Certified Intenders > Automotive > Makes > Opel,adgnitio Intenders,Automotive,Makes,Opel,Users who have shown intent to purchase Opel related products/services
+og066,adgnitio > Certified Intenders > Automotive > Makes > Pagani,adgnitio Intenders,Automotive,Makes,Pagani,Users who have shown intent to purchase Pagani related products/services
+og067,adgnitio > Certified Intenders > Automotive > Makes > Panoz,adgnitio Intenders,Automotive,Makes,Panoz,Users who have shown intent to purchase Panoz related products/services
+og068,adgnitio > Certified Intenders > Automotive > Makes > Perodua,adgnitio Intenders,Automotive,Makes,Perodua,Users who have shown intent to purchase Perodua related products/services
+og069,adgnitio > Certified Intenders > Automotive > Makes > Peugeot,adgnitio Intenders,Automotive,Makes,Peugeot,Users who have shown intent to purchase Peugeot related products/services
+og070,adgnitio > Certified Intenders > Automotive > Makes > Plymouth,adgnitio Intenders,Automotive,Makes,Plymouth,Users who have shown intent to purchase Plymouth related products/services
+og071,adgnitio > Certified Intenders > Automotive > Makes > Pontiac,adgnitio Intenders,Automotive,Makes,Pontiac,Users who have shown intent to purchase Pontiac related products/services
+og072,adgnitio > Certified Intenders > Automotive > Makes > Porsche,adgnitio Intenders,Automotive,Makes,Porsche,Users who have shown intent to purchase Porsche related products/services
+og073,adgnitio > Certified Intenders > Automotive > Makes > Proton,adgnitio Intenders,Automotive,Makes,Proton,Users who have shown intent to purchase Proton related products/services
+og074,adgnitio > Certified Intenders > Automotive > Makes > Ram,adgnitio Intenders,Automotive,Makes,Ram,Users who have shown intent to purchase Ram related products/services
+og075,adgnitio > Certified Intenders > Automotive > Makes > Renault,adgnitio Intenders,Automotive,Makes,Renault,Users who have shown intent to purchase Renault related products/services
+og076,adgnitio > Certified Intenders > Automotive > Makes > Rolls Royce,adgnitio Intenders,Automotive,Makes,Rolls Royce,Users who have shown intent to purchase Rolls Royce related products/services
+og077,adgnitio > Certified Intenders > Automotive > Makes > Saab,adgnitio Intenders,Automotive,Makes,Saab,Users who have shown intent to purchase Saab related products/services
+og078,adgnitio > Certified Intenders > Automotive > Makes > Saleen,adgnitio Intenders,Automotive,Makes,Saleen,Users who have shown intent to purchase Saleen related products/services
+og079,adgnitio > Certified Intenders > Automotive > Makes > Saturn,adgnitio Intenders,Automotive,Makes,Saturn,Users who have shown intent to purchase Saturn related products/services
+og080,adgnitio > Certified Intenders > Automotive > Makes > Scion,adgnitio Intenders,Automotive,Makes,Scion,Users who have shown intent to purchase Scion related products/services
+og081,adgnitio > Certified Intenders > Automotive > Makes > SEAT,adgnitio Intenders,Automotive,Makes,SEAT,Users who have shown intent to purchase SEAT related products/services
+og082,adgnitio > Certified Intenders > Automotive > Makes > Shelby,adgnitio Intenders,Automotive,Makes,Shelby,Users who have shown intent to purchase Shelby related products/services
+og083,adgnitio > Certified Intenders > Automotive > Makes > Skoda,adgnitio Intenders,Automotive,Makes,Skoda,Users who have shown intent to purchase Skoda related products/services
+og084,adgnitio > Certified Intenders > Automotive > Makes > Smart,adgnitio Intenders,Automotive,Makes,Smart,Users who have shown intent to purchase Smart related products/services
+og085,adgnitio > Certified Intenders > Automotive > Makes > Spyker,adgnitio Intenders,Automotive,Makes,Spyker,Users who have shown intent to purchase Spyker related products/services
+og086,adgnitio > Certified Intenders > Automotive > Makes > Sterling,adgnitio Intenders,Automotive,Makes,Sterling,Users who have shown intent to purchase Sterling related products/services
+og087,adgnitio > Certified Intenders > Automotive > Makes > Studebaker,adgnitio Intenders,Automotive,Makes,Studebaker,Users who have shown intent to purchase Studebaker related products/services
+og088,adgnitio > Certified Intenders > Automotive > Makes > Subaru,adgnitio Intenders,Automotive,Makes,Subaru,Users who have shown intent to purchase Subaru related products/services
+og089,adgnitio > Certified Intenders > Automotive > Makes > Suzuki,adgnitio Intenders,Automotive,Makes,Suzuki,Users who have shown intent to purchase Suzuki related products/services
+og090,adgnitio > Certified Intenders > Automotive > Makes > Tesla,adgnitio Intenders,Automotive,Makes,Tesla,Users who have shown intent to purchase Tesla related products/services
+og091,adgnitio > Certified Intenders > Automotive > Makes > Toyota,adgnitio Intenders,Automotive,Makes,Toyota,Users who have shown intent to purchase Toyota related products/services
+og092,adgnitio > Certified Intenders > Automotive > Makes > Triumph,adgnitio Intenders,Automotive,Makes,Triumph,Users who have shown intent to purchase Triumph related products/services
+og093,adgnitio > Certified Intenders > Automotive > Makes > Volkswagen,adgnitio Intenders,Automotive,Makes,Volkswagen,Users who have shown intent to purchase Volkswagen related products/services
+og094,adgnitio > Certified Intenders > Automotive > Makes > Volvo,adgnitio Intenders,Automotive,Makes,Volvo,Users who have shown intent to purchase Volvo related products/services
+og095,adgnitio > Certified Intenders > Automotive > Makes > Willys,adgnitio Intenders,Automotive,Makes,Willys,Users who have shown intent to purchase Willys related products/services
+og096,adgnitio > Certified Intenders > Automotive > Makes > Yugo,adgnitio Intenders,Automotive,Makes,Yugo,Users who have shown intent to purchase Yugo related products/services
+,adgnitio > Certified Intenders > Travel,adgnitio Intenders,Travel,,,Users who have shown intent to purchase Travel related services
+og098,adgnitio > Certified Intenders > Travel > Air Travel,adgnitio Intenders,Travel,Air Travel,,Users who have shown intent to purchase Air Travel related services
+og099,adgnitio > Certified Intenders > Travel > Hotels & Lodging,adgnitio Intenders,Travel,Hotels & Lodging,,Users who have shown intent to purchase Hotel & Lodging related services
+og435,adgnitio > Certified Intenders > Travel > Car Rentals,adgnitio Intenders,Travel,Car Rentals,,Users who have shown intent to purchase Car Rentals related services
+og432,adgnitio > Certified Intenders > Retail > Automotive Parts & Accessories,adgnitio Intenders,Retail,Automotive Parts & Accessories,,Users who have shown intent to purchase Automotive Parts & Accessories
+og433,adgnitio > Certified Intenders > Retail > Baby & Parenting,adgnitio Intenders,Retail,Baby & Parenting,,Users who have shown intent to purchase Baby & Parenting related products
+og436,adgnitio > Certified Intenders > Retail > Apparel,adgnitio Intenders,Retail,Apparel,,Users who have shown intent to purchase Apparel
+og437,adgnitio > Certified Intenders > Retail > Luxury Goods,adgnitio Intenders,Retail,Luxury Goods,,Users who have shown intent to purchase Luxury Goods 
+og452,adgnitio > Certified Intenders > Retail > Shoes,adgnitio Intenders,Retail,Shoes,,Users who have shown intent to purchase Shoes 
+og453,adgnitio > Certified Intenders > Retail > Big Box Retailers,adgnitio Intenders,Retail,Big Box Retailers,,Users who have shown intent to purchase frm Big Box Retailers
+og498,adgnitio > Certified Intenders > Retail > Pharma,adgnitio Intenders,Retail,Pharma,,Users who have shown intent to purchase Pharma related products/services
+og455,adgnitio > Certified Intenders > Retail > Sporting Goods,adgnitio Intenders,Retail,Sporting Goods,,Users who have shown intent to purchase Sporting Goods 
+og457,adgnitio > Certified Intenders > Retail > Toys,adgnitio Intenders,Retail,Toys,,Users who have shown intent to purchase Toys
+og475,adgnitio > Certified Intenders > Retail > Events & Tickets,adgnitio Intenders,Retail,Events & Tickets,,Users who have shown intent to purchase events & tickets
+,adgnitio > Demographic Insights,adgnitio Demographic Insights,,,,adgnitio Demographic Insights are extracted from device level data and provide high confidence demographic targeting
+,adgnitio > Demographic Insights > Languages,adgnitio Demographic Insights,Languages,,,High confidence language insights
+og158,adgnitio > Demographic Insights > Languages > Arabic Speakers,adgnitio Demographic Insights,Languages,Arabic Speakers,,High confidence Arabic Speakers
+og159,adgnitio > Demographic Insights > Languages > Chinese Speakers,adgnitio Demographic Insights,Languages,Chinese Speakers,,High confidence Chinese Speakers
+og160,adgnitio > Demographic Insights > Languages > French Speakers,adgnitio Demographic Insights,Languages,French Speakers,,High confidence French Speakers
+og161,adgnitio > Demographic Insights > Languages > German Speakers,adgnitio Demographic Insights,Languages,German Speakers,,High confidence German Speakers
+og162,adgnitio > Demographic Insights > Languages > Hindi Speakers,adgnitio Demographic Insights,Languages,Hindi Speakers,,High confidence Hindi Speakers
+og163,adgnitio > Demographic Insights > Languages > Italian Speakers,adgnitio Demographic Insights,Languages,Italian Speakers,,High confidence Italian Speakers
+og164,adgnitio > Demographic Insights > Languages > Japanese Speakers,adgnitio Demographic Insights,Languages,Japanese Speakers,,High confidence Japanese Speakers
+og165,adgnitio > Demographic Insights > Languages > Korean Speakers,adgnitio Demographic Insights,Languages,Korean Speakers,,High confidence Korean Speakers
+og166,adgnitio > Demographic Insights > Languages > Polish Speakers,adgnitio Demographic Insights,Languages,Polish Speakers,,High confidence Polish Speakers
+og167,adgnitio > Demographic Insights > Languages > Portuguese Speakers,adgnitio Demographic Insights,Languages,Portuguese Speakers,,High confidence Portuguese Speakers
+og168,adgnitio > Demographic Insights > Languages > Russian Speakers,adgnitio Demographic Insights,Languages,Russian Speakers,,High confidence Russian Speakers
+og169,adgnitio > Demographic Insights > Languages > Spanish Speakers,adgnitio Demographic Insights,Languages,Spanish Speakers,,High confidence Spanish Speakers
+og170,adgnitio > Demographic Insights > Languages > Vietnamese Speakers,adgnitio Demographic Insights,Languages,Vietnamese Speakers,,High confidence Vietnamese Speakers
+og430,adgnitio > Interest > Air Travel,adgnitio Interest,Air Travel,,,Users who have demonstrated high interest in Air Travel
+og431,adgnitio > Interest > Animals,adgnitio Interest,Animals,,,Users who have demonstrated high interest in Animal related topics
+og434,adgnitio > Interest > Beauty & Cosmetics,adgnitio Interest,Beauty & Cosmetics,,,Users who have demonstrated high interest in Beauty & Cosmetics
+og438,adgnitio > Interest > Communication,adgnitio Interest,Communication,,,Users who have demonstrated high interest in Communication
+og439,adgnitio > Interest > Computers,adgnitio Interest,Computers,,,Users who have demonstrated high interest in Computers
+og440,adgnitio > Interest > Electronics,adgnitio Interest,Electronics,,,Users who have demonstrated high interest in Electronics
+og441,adgnitio > Interest > Dating,adgnitio Interest,Dating,,,Users who have demonstrated high interest in Dating
+og442,adgnitio > Interest > Education,adgnitio Interest,Education,,,Users who have demonstrated high interest in Education
+og443,adgnitio > Interest > Entertainment,adgnitio Interest,Entertainment,,,Users who have demonstrated high interest in Entertainment related topics
+og444,adgnitio > Interest > Financial Products & Services,adgnitio Interest,Financial Products & Services,,,Users who have demonstrated high interest in Financial Products & Services
+og445,adgnitio > Interest > Food & Dining,adgnitio Interest,Food & Dining,,,Users who have demonstrated high interest in Food & Dining
+og446,adgnitio > Interest > Gaming,adgnitio Interest,Gaming,,,Users who have demonstrated high interest in Gaming
+og447,adgnitio > Interest > Health,adgnitio Interest,Health,,,Users who have demonstrated high interest in Health
+og448,adgnitio > Interest > Genealogy,adgnitio Interest,Genealogy,,,Users who have demonstrated high interest in Genealogy
+og450,adgnitio > Interest > Mobile,adgnitio Interest,Mobile,,,Users who have demonstrated high interest in Mobile
+og451,adgnitio > Interest > Photography,adgnitio Interest,Photography,,,Users who have demonstrated high interest in Photography & Printing
+og454,adgnitio > Interest > Home Improvement,adgnitio Interest,Home Improvement,,,Users who have demonstrated high interest in Home Improvement
+og456,adgnitio > Interest > Sports,adgnitio Interest,Sports,,,Users who have demonstrated high interest in Sports
+og458,adgnitio > Interest > Travel,adgnitio Interest,Travel,,,Users who have demonstrated high interest in Traveling and Vacations
+og471,adgnitio > Interest > Cruise ,adgnitio Interest,Cruise ,,,Users who have demonstrated high interest in Cruises
+og459,adgnitio > Interest > Wedding,adgnitio Interest,Wedding,,,Users who have demonstrated high interest in Wedding related topics
+og461,adgnitio > Interest > Alpine Sports,adgnitio Interest,Alpine Sports,,,Users who have demonstrated high interest in Alpine Sports
+og462,adgnitio > Interest > Animals,adgnitio Interest,Animals,,,Users who have demonstrated high interest in Animals
+og464,adgnitio > Interest > Auto,adgnitio Interest,Auto,,,Users who have demonstrated high interest in Auto related topics
+og465,adgnitio > Interest > Baseball,adgnitio Interest,Baseball,,,Users who have demonstrated high interest in Baseball
+og466,adgnitio > Interest > Basketball,adgnitio Interest,Basketball,,,Users who have demonstrated high interest in Basketball
+og469,adgnitio > Interest > Cooking,adgnitio Interest,Cooking,,,Users who have demonstrated high interest in Cooking
+og473,adgnitio > Interest > Electronics,adgnitio Interest,Electronics,,,Users who have demonstrated high interest in Electronics
+og480,adgnitio > Interest > NFL Football,adgnitio Interest,NFL Football,,,Users who have demonstrated high interest in NFL Football
+og492,adgnitio > Interest > Music,adgnitio Interest,Music,,,Users who have demonstrated high interest in Music
+og501,adgnitio > Interest > Soccer,adgnitio Interest,Soccer,,,Users who have demonstrated high interest in Soccer
+og460,adgnitio > Lifestyle Profiles > Active Traders,adgnitio Lifestyle Profiles,Active Traders,,,Users who have sent signals and behaviors scoring highly against adgnitio's Active Traders lifestyle audience profile
+og463,adgnitio > Lifestyle Profiles > Auction/Classified Shoppers,adgnitio Lifestyle Profiles,Auction/Classified Shoppers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Auction/Classified Shoppers lifestyle audience profile
+og467,adgnitio > Lifestyle Profiles > Business Professionals,adgnitio Lifestyle Profiles,Business Professionals,,,Users who have sent signals and behaviors scoring highly against adgnitio's Business Professionals lifestyle audience profile
+og468,adgnitio > Lifestyle Profiles > College Students,adgnitio Lifestyle Profiles,College Students,,,Users who have sent signals and behaviors scoring highly against adgnitio's College Students lifestyle audience profile
+og470,adgnitio > Lifestyle Profiles > Couples,adgnitio Lifestyle Profiles,Couples,,,Users who have sent signals and behaviors scoring highly against adgnitio's Couples lifestyle audience profile
+og472,adgnitio > Lifestyle Profiles > C-Suite Execs,adgnitio Lifestyle Profiles,C-Suite Execs,,,Users who have sent signals and behaviors scoring highly against adgnitio's C-Suite Execs lifestyle audience profile
+og476,adgnitio > Lifestyle Profiles > Fashionistas,adgnitio Lifestyle Profiles,Fashionistas,,,Users who have sent signals and behaviors scoring highly against adgnitio's Fashionistas lifestyle audience profile
+og477,adgnitio > Lifestyle Profiles > Fitness Trackers,adgnitio Lifestyle Profiles,Fitness Trackers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Fitness Trackers lifestyle audience profile
+og478,adgnitio > Lifestyle Profiles > Frequent Fliers,adgnitio Lifestyle Profiles,Frequent Fliers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Frequent Fliers lifestyle audience profile
+og479,adgnitio > Lifestyle Profiles > Foodies,adgnitio Lifestyle Profiles,Foodies,,,Users who have sent signals and behaviors scoring highly against adgnitio's Foodies lifestyle audience profile
+og481,adgnitio > Lifestyle Profiles > Gamers,adgnitio Lifestyle Profiles,Gamers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Gamers lifestyle audience profile
+og482,adgnitio > Lifestyle Profiles > Health Fanatics,adgnitio Lifestyle Profiles,Health Fanatics,,,Users who have sent signals and behaviors scoring highly against adgnitio's Health Fanatics lifestyle audience profile
+og483,adgnitio > Lifestyle Profiles > Home Buyers,adgnitio Lifestyle Profiles,Home Buyers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Home Buyers lifestyle audience profile
+og484,adgnitio > Lifestyle Profiles > Hispanic Users,adgnitio Lifestyle Profiles,Hispanic Users,,,Users who have sent signals and behaviors scoring highly against adgnitio's Hispanic Users lifestyle audience profile
+og485,adgnitio > Lifestyle Profiles > Home Renters,adgnitio Lifestyle Profiles,Home Renters,,,Users who have sent signals and behaviors scoring highly against adgnitio's Home Renters lifestyle audience profile
+og486,adgnitio > Lifestyle Profiles > Hotel Reviewers,adgnitio Lifestyle Profiles,Hotel Reviewers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Hotel Reviewers lifestyle audience profile
+og487,adgnitio > Lifestyle Profiles > Investing for Retirement,adgnitio Lifestyle Profiles,Investing for Retirement,,,Users who have sent signals and behaviors scoring highly against adgnitio's Investing for Retirement lifestyle audience profile
+og488,adgnitio > Lifestyle Profiles > Job Seekers,adgnitio Lifestyle Profiles,Job Seekers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Job Seekers lifestyle audience profile
+og489,adgnitio > Lifestyle Profiles > Luxury & Designer ,adgnitio Lifestyle Profiles,Luxury & Designer ,,,Users who have sent signals and behaviors scoring highly against adgnitio's Luxury & Designer  lifestyle audience profile
+og490,adgnitio > Lifestyle Profiles > Mobile Gamers,adgnitio Lifestyle Profiles,Mobile Gamers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Mobile Gamers lifestyle audience profile
+og491,adgnitio > Lifestyle Profiles > Moms,adgnitio Lifestyle Profiles,Moms,,,Users who have sent signals and behaviors scoring highly against adgnitio's Moms lifestyle audience profile
+og493,adgnitio > Lifestyle Profiles > New Parents,adgnitio Lifestyle Profiles,New Parents,,,Users who have sent signals and behaviors scoring highly against adgnitio's New Parents lifestyle audience profile
+og494,adgnitio > Lifestyle Profiles > News Junkies,adgnitio Lifestyle Profiles,News Junkies,,,Users who have sent signals and behaviors scoring highly against adgnitio's News Junkies lifestyle audience profile
+og495,adgnitio > Lifestyle Profiles > Online Daters,adgnitio Lifestyle Profiles,Online Daters,,,Users who have sent signals and behaviors scoring highly against adgnitio's Online Daters lifestyle audience profile
+og496,adgnitio > Lifestyle Profiles > Online Shoppers,adgnitio Lifestyle Profiles,Online Shoppers,,,Users who have sent signals and behaviors scoring highly against adgnitio's Online Shoppers lifestyle audience profile
+og497,adgnitio > Lifestyle Profiles > Pet Owners,adgnitio Lifestyle Profiles,Pet Owners,,,Users who have sent signals and behaviors scoring highly against adgnitio's Pet Owners lifestyle audience profile
+og500,adgnitio > Lifestyle Profiles > Retirees,adgnitio Lifestyle Profiles,Retirees,,,Users who have sent signals and behaviors scoring highly against adgnitio's Retirees lifestyle audience profile
+og502,adgnitio > Lifestyle Profiles > Socialites,adgnitio Lifestyle Profiles,Socialites,,,Users who have sent signals and behaviors scoring highly against adgnitio's Socialites lifestyle audience profile
+og503,adgnitio > Lifestyle Profiles > Soon to be Brides,adgnitio Lifestyle Profiles,Soon to be Brides,,,Users who have sent signals and behaviors scoring highly against adgnitio's Soon to be Brides lifestyle audience profile
+og504,adgnitio > Lifestyle Profiles > Sports Enthousiasts,adgnitio Lifestyle Profiles,Sports Enthousiasts,,,Users who have sent signals and behaviors scoring highly against adgnitio's Sports Enthousiasts lifestyle audience profile
+og505,adgnitio > Lifestyle Profiles > Techies,adgnitio Lifestyle Profiles,Techies,,,Users who have sent signals and behaviors scoring highly against adgnitio's Techies lifestyle audience profile
+og506,adgnitio > Lifestyle Profiles > Vacation Planners,adgnitio Lifestyle Profiles,Vacation Planners,,,Users who have sent signals and behaviors scoring highly against adgnitio's Vacation Planners lifestyle audience profile
